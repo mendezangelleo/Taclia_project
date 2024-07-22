@@ -5,7 +5,7 @@ import java.nio.file.Paths
 import java.nio.file.StandardOpenOption
 
 class EmailGenerator {
-	private static String filePath = 'C:\\Users\\mende\\Katalon Studio\\My First Web UI Project\\Incrementor.txt'
+	private static String filePath = Paths.get(System.getProperty("user.dir"), "Incrementor.txt").toString()
 
 	static String getNextEmail() {
 		int number = 0
