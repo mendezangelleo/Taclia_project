@@ -17,6 +17,6 @@ class EmailGenerator {
 		}
 		number++
 		Files.write(Paths.get(filePath), String.valueOf(number).getBytes(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
-		return "amendez+automation${number}@taclia.com"
+		return "amendez+utomation${number}@taclia.com"
 	}
 }

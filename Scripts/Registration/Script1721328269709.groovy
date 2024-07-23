@@ -32,6 +32,7 @@ try {
 
     WebUI.comment('Formulario de registro completado y siguiente paso clicado.')
 
+
     // Obtener el sector aleatorio
     String sectorId = SectorKeywords.getRandomSectorId()
 
@@ -56,7 +57,10 @@ try {
 }
 catch (Exception e) {
     WebUI.comment('Error: ' + e.getMessage())
+
+    throw e
 } 
+// Lanzar la excepción para que el test falle
 finally { 
     // Cerrar la aplicación
     LoginPage.close()

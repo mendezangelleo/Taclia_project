@@ -26,15 +26,15 @@ class RegistrationPage {
 			return
 		}
 
-		
+
 		String sectorLocator = "//*[@id='sectorContainer_${sectorId}']"
 		TestObject sectorObject = new TestObject()
 		sectorObject.addProperty("xpath", ConditionType.EQUALS, sectorLocator)
 
-		
+
 		WebUI.waitForElementVisible(sectorObject, 30)
 
-		
+
 		WebUI.click(sectorObject)
 	}
 
@@ -43,25 +43,25 @@ class RegistrationPage {
 	}
 
 	static int selectManagementOption() {
-		
+
 		String optionLocator = "//div[@class='item-sector']"
 
-		
+
 		TestObject dynamicObject = new TestObject()
 		dynamicObject.addProperty("xpath", ConditionType.EQUALS, optionLocator)
 
-		
+
 		List<WebElement> options = WebUiCommonHelper.findWebElements(dynamicObject, 30)
 
-		
+
 		Random random = new Random()
 		int randomIndex = random.nextInt(options.size())
 
-		
+
 		WebElement selectedOption = options.get(randomIndex)
 		selectedOption.click()
 
-		
+
 		return randomIndex
 	}
 
