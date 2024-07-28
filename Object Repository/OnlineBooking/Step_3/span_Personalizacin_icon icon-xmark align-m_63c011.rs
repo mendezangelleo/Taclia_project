@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Personalizacin_icon icon-xmark align-m_63c011</name>
+   <tag></tag>
+   <elementGuidId>e27a6d42-9915-4480-a67f-870e39acd577</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.icon.icon-xmark.align-middle.text-neutral-700</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bodyContainer']/roma-mf-online-booking/mf-online-booking/div/div/div/div/form/div/nav/div/div/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;button-form-close&quot;] span >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4bc1353e-f04e-4f0a-89e2-9619376acca1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-xmark align-middle text-neutral-700</value>
+      <webElementGuid>d0d50c47-ba9e-483f-8115-1d4ac8723538</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bodyContainer&quot;)/roma-mf-online-booking[@class=&quot;ng-star-inserted&quot;]/mf-online-booking[1]/div[@class=&quot;mf-online-booking&quot;]/div[1]/div[@class=&quot;fixed inset-0 z-[1000] flex items-center justify-center bg-black bg-opacity-50&quot;]/div[@class=&quot;w-full h-full bg-white&quot;]/form[1]/div[@class=&quot;relative h-full mt-safe pb-safe flex flex-col min-h-screen&quot;]/nav[@class=&quot;dark:border-gray-700 sm:px-4 mt-3 mb-2 w-full md:py-3 py-1 bg-white dark:bg-white z-[100000] px-0&quot;]/div[@class=&quot;mx-auto flex flex-wrap items-center justify-between container&quot;]/div[@class=&quot;px-4 lg:pr-8 w-full flex flex-wrap items-center md:items-start justify-between&quot;]/div[@class=&quot;w-[28px] h-[28px] md:w-[40px] md:h-[40px] flex md:order-2 relative cursor-pointer flex-col items-center justify-center&quot;]/span[@class=&quot;icon icon-xmark align-middle text-neutral-700&quot;]</value>
+      <webElementGuid>6db77a30-fb2f-4e5d-91cc-9e088facec1e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bodyContainer']/roma-mf-online-booking/mf-online-booking/div/div/div/div/form/div/nav/div/div/div[3]/span</value>
+      <webElementGuid>d6e38680-5e17-49ff-80c1-6766b34fbef6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div/div/div[3]/span</value>
+      <webElementGuid>f881e6e8-f2b0-439c-8dae-20de7a5d4649</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

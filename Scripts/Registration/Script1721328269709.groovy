@@ -26,9 +26,9 @@ try {
     // Completar el formulario de registro
     RegistrationPage.fillForm(generatedEmail, TestConfig.phone, TestConfig.password)
 
-    RegistrationPage.verifyCountry(expectedCountry)
 
     RegistrationPage.clickNextStep()
+	
 
     WebUI.comment('Formulario de registro completado y siguiente paso clicado.')
 

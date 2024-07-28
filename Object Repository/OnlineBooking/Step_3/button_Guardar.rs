@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Guardar</name>
+   <tag></tag>
+   <elementGuidId>1d4570f3-74dd-4d16-a3e2-06817d122029</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.primary.small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/roma-create-catalogue/roma-modal-template/div/div/div[3]/div/base-button[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Guardar&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cd3c6012-4d5a-4690-91f1-b58c79be95cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>primary small</value>
+      <webElementGuid>c2926c87-724a-4917-a3c0-2610ec9f9b98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Guardar </value>
+      <webElementGuid>97a1fdb2-0181-44af-bc74-297ead754a22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/roma-create-catalogue[@class=&quot;ng-star-inserted&quot;]/roma-modal-template[1]/div[@class=&quot;safe-area-padding no-overflow-y&quot;]/div[@class=&quot;custom-modal custom-modal--mobile-full&quot;]/div[@class=&quot;modalFooter ng-star-inserted&quot;]/div[@class=&quot;groupEndDiv&quot;]/base-button[2]/button[@class=&quot;primary small&quot;]</value>
+      <webElementGuid>ecf5e0ad-3f1e-4b4b-a7a1-bca1054a466f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/roma-create-catalogue/roma-modal-template/div/div/div[3]/div/base-button[2]/button</value>
+      <webElementGuid>7c25f0ae-638d-4efb-a878-16a542aa2597</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/following::button[1]</value>
+      <webElementGuid>cdf30c48-41f6-4cee-919a-14a995e6f695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ir a campos personalizados'])[1]/following::button[2]</value>
+      <webElementGuid>a187859a-0abd-4f22-8cff-2f23c310d7a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//base-button[2]/button</value>
+      <webElementGuid>8f173b71-60b5-47d7-8e3c-623cd24103f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Guardar ' or . = ' Guardar ')]</value>
+      <webElementGuid>a1c8d120-2c81-4d15-bd7e-0e0f24752292</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

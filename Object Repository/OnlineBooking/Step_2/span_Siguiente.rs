@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Siguiente</name>
+   <tag></tag>
+   <elementGuidId>f3943f33-7f45-4946-8b3d-271844ebea22</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Siguiente' or . = 'Siguiente')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;next-form&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>090ac618-d305-479b-bb12-7be570e02fb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>-mt-[2px] text-[16px]</value>
+      <webElementGuid>2f308d41-1a64-4b42-8784-6590d42bee11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Siguiente</value>
+      <webElementGuid>39ccb98e-f957-4435-83d2-1a51e94f079a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bodyContainer&quot;)/roma-mf-online-booking[@class=&quot;ng-star-inserted&quot;]/mf-online-booking[1]/div[@class=&quot;mf-online-booking&quot;]/div[1]/div[@class=&quot;fixed inset-0 z-[1000] flex items-center justify-center bg-black bg-opacity-50&quot;]/div[@class=&quot;w-full h-full bg-white&quot;]/form[1]/div[@class=&quot;relative h-full mt-safe pb-safe flex flex-col min-h-screen&quot;]/div[@class=&quot;h-20 pb-safe flex flex-row w-full items-center justify-between lg:px-24 border-t border-gray-5 z-[100000]&quot;]/div[@class=&quot;hidden md:block&quot;]/div[@class=&quot;flex justify-between gap-10&quot;]/button[@class=&quot;focus:outline-none focus:!ring-transparent border border-none active:bg-primary-700 text-white p-0 rounded-full w-full relative lg:w-[136px] lg:h-[52px] bg-primary hover:bg-primary&quot;]/span[@class=&quot;items-stretch transition-all duration-200 flex justify-center py-4 px-6 rounded-xl&quot;]/span[@class=&quot;-mt-[2px] text-[16px]&quot;]</value>
+      <webElementGuid>ba38832b-b216-4bee-a22c-d98689a11f3a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bodyContainer']/roma-mf-online-booking/mf-online-booking/div/div/div/div/form/div/div[2]/div[2]/div/button/span/span</value>
+      <webElementGuid>e604529c-99cd-45b9-acb0-ff07092be5aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Necesitas ayuda?'])[1]/following::span[2]</value>
+      <webElementGuid>2c2e5768-6ce8-4540-8ca2-1b490a940a76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='booking.taclia.com/'])[1]/following::span[4]</value>
+      <webElementGuid>0712803b-a26c-4d27-a636-96eac08e60ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Siguiente'])[2]/preceding::span[1]</value>
+      <webElementGuid>e18395d7-4d87-460c-a66e-bd341040faf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::span[3]</value>
+      <webElementGuid>4da807e2-42b2-4dc9-bb74-e037af609671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Siguiente']/parent::*</value>
+      <webElementGuid>7d9a47fd-7c17-4490-bd81-616914c9c83f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>106d8784-1a38-44b7-ba3b-526a93e034c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Siguiente' or . = 'Siguiente')]</value>
+      <webElementGuid>7ad802a0-6952-49aa-9197-458830eb8f0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

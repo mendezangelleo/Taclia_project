@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Guardar</name>
+   <tag></tag>
+   <elementGuidId>b204972d-4714-4a95-a70c-fda62c174c28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.items-stretch.transition-all.duration-200.flex.justify-center.py-4.px-6.rounded-xl</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bodyContainer']/roma-mf-online-booking/mf-online-booking/div/div/div/div/form/div/div[2]/div[2]/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;next-form&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8b425138-ecf1-49ef-889f-1664b386dba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>items-stretch transition-all duration-200 flex justify-center py-4 px-6 rounded-xl</value>
+      <webElementGuid>6e15808e-7fe3-4e4f-b508-d6b25d7466d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Guardar</value>
+      <webElementGuid>9e2e9dd6-0d07-4b97-943c-ed716483db50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bodyContainer&quot;)/roma-mf-online-booking[@class=&quot;ng-star-inserted&quot;]/mf-online-booking[1]/div[@class=&quot;mf-online-booking&quot;]/div[1]/div[@class=&quot;fixed inset-0 z-[1000] flex items-center justify-center bg-black bg-opacity-50&quot;]/div[@class=&quot;w-full h-full bg-white&quot;]/form[1]/div[@class=&quot;relative h-full mt-safe pb-safe flex flex-col min-h-screen&quot;]/div[@class=&quot;h-20 pb-safe flex flex-row w-full items-center justify-between lg:px-24 border-t border-gray-5 z-[100000]&quot;]/div[@class=&quot;hidden md:block&quot;]/div[@class=&quot;flex justify-between gap-10&quot;]/button[@class=&quot;focus:outline-none focus:!ring-transparent border border-none active:bg-primary-700 text-white p-0 rounded-full w-full relative lg:w-[136px] lg:h-[52px] bg-primary hover:bg-primary&quot;]/span[@class=&quot;items-stretch transition-all duration-200 flex justify-center py-4 px-6 rounded-xl&quot;]</value>
+      <webElementGuid>c9a4b6fb-0adb-4e31-92f6-6584d2cc1a86</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bodyContainer']/roma-mf-online-booking/mf-online-booking/div/div/div/div/form/div/div[2]/div[2]/div/button/span</value>
+      <webElementGuid>58d4c3c7-4998-403d-b392-7c95f32cc832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Necesitas ayuda?'])[1]/following::span[1]</value>
+      <webElementGuid>a992aa16-38b3-4ec7-a1f6-ec7d81a4b7e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[1]/following::span[3]</value>
+      <webElementGuid>487c3aa2-e2a1-44eb-8379-889457b6c039</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guardar'])[2]/preceding::span[2]</value>
+      <webElementGuid>8471c2c9-30a3-4f7e-8ef6-25cde2372490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button/span</value>
+      <webElementGuid>bd6d29ba-6894-45ca-8726-bc5d5a172308</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Guardar' or . = 'Guardar')]</value>
+      <webElementGuid>9db35aec-a3ea-4cc2-acbc-6f74ac0c19ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

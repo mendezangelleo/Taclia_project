@@ -3,20 +3,49 @@ package emailGenerator.groovy
 import java.nio.file.Files
 import java.nio.file.Paths
 import java.nio.file.StandardOpenOption
+import java.util.Random
 
 class EmailGenerator {
-	private static String filePath = Paths.get(System.getProperty("user.dir"), "Incrementor.txt").toString()
+    private static String incrementorPath = Paths.get(System.getProperty("user.dir"), "Incrementor.txt").toString()
+    private static String emailListPath = Paths.get(System.getProperty("user.dir"), "EmailsUsed.txt").toString()
 
-	static String getNextEmail() {
-		int number = 0
-		if (Files.exists(Paths.get(filePath))) {
-			List<String> lines = Files.readAllLines(Paths.get(filePath))
-			if (!lines.isEmpty()) {
-				number = Integer.parseInt(lines.get(0))
-			}
-		}
-		number++
-		Files.write(Paths.get(filePath), String.valueOf(number).getBytes(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
-		return "amendez+automation${number}@taclia.com"
-	}
+    static String getNextEmail() {
+        int number = 0
+        if (Files.exists(Paths.get(incrementorPath))) {
+            List<String> lines = Files.readAllLines(Paths.get(incrementorPath))
+            if (!lines.isEmpty()) {
+                number = Integer.parseInt(lines.get(0))
+            }
+        }
+        number++
+        Files.write(Paths.get(incrementorPath), String.valueOf(number).getBytes(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
+
+        // Generar cadena aleatoria
+        String randomString = generateRandomString(8)
+
+        String email = "amendez+${randomString}${number}@taclia.com"
+        
+        // Guardar el email generado en el archivo
+        saveEmail(email)
+
+        return email
+    }
+
+    private static String generateRandomString(int length) {
+        String chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+        Random random = new Random()
+        StringBuilder sb = new StringBuilder()
+        for (int i = 0; i < length; i++) {
+            sb.append(chars.charAt(random.nextInt(chars.length())))
+        }
+        return sb.toString()
+    }
+
+    private static void saveEmail(String email) {
+        try {
+            Files.write(Paths.get(emailListPath), (email + System.lineSeparator()).getBytes(), StandardOpenOption.CREATE, StandardOpenOption.APPEND)
+        } catch (IOException e) {
+            e.printStackTrace()
+        }
+    }
 }
