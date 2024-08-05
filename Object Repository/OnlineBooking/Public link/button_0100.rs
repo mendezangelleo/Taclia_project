@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_0100</name>
+   <tag></tag>
+   <elementGuidId>216d02f9-2bd3-4ca5-a642-1ceff9a4d8b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona la hora de tu reserva'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;01:00&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1f2b9a8b-cb51-4c6d-b92d-2796eaeca2dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tag  w-[70px]</value>
+      <webElementGuid>d739c9f5-d153-45c9-b41a-517c215c7291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>01:00</value>
+      <webElementGuid>c31f4ed1-55e6-4127-9ca1-9081db4bc123</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;full-modal&quot;]/div[@class=&quot;full-modal-body&quot;]/div[@class=&quot;flex justify-between flex-row w-full&quot;]/div[@class=&quot;w-full md:w-[65%]&quot;]/div[@class=&quot;flex flex-col max-w-[600px] w-full&quot;]/div[@class=&quot;w-full flex flex-wrap gap-3 xs:gap-4&quot;]/button[@class=&quot;tag  w-[70px]&quot;]</value>
+      <webElementGuid>ba3853ad-65a1-49c6-93f5-269a22fc3f5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selecciona la hora de tu reserva'])[1]/following::button[1]</value>
+      <webElementGuid>52fbcbb5-229d-49ef-910a-6e1565ecb1e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ma'])[1]/following::button[43]</value>
+      <webElementGuid>161859aa-d329-48f3-ba9a-5c8eb8816712</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testob5'])[3]/preceding::button[46]</value>
+      <webElementGuid>f35c3dc1-0b8d-4e59-949c-5093db87e1fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0'])[9]/preceding::button[46]</value>
+      <webElementGuid>df2e33c8-47df-4e14-a67e-7199585b6746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='01:00']/parent::*</value>
+      <webElementGuid>b2069014-6dc7-435b-8130-100678246899</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>c1b6c1c2-0341-48eb-87b1-272f31392473</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '01:00' or . = '01:00')]</value>
+      <webElementGuid>cc1f894c-d9a1-4c96-9f94-0ad7361e5c54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

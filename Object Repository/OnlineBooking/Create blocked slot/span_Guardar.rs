@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Guardar</name>
+   <tag></tag>
+   <elementGuidId>90333874-4ac6-480e-88b6-1588bf5591a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.items-stretch.transition-all.duration-200.flex.justify-center.py-3.px-5.rounded-xl.text-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;block-schedule-modal-confirm-modal-confirm&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7f3703da-a670-4356-a418-2634d6eea13a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>items-stretch transition-all duration-200 flex justify-center py-3 px-5 rounded-xl text-sm</value>
+      <webElementGuid>885eea86-cf17-44e7-9ff8-47ede1dee699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Guardar</value>
+      <webElementGuid>8ae21fb8-a204-4d4b-9315-0d65b34b8ab6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:rc:&quot;)/div[@id=&quot;block-schedule-modal&quot;]/div[@id=&quot;block-schedule-modal&quot;]/div[@class=&quot;relative md:rounded-3xl rounded-none bg-white&quot;]/div[@class=&quot;md:px-10 md:pt-6 md:pb-8 px-6 py-4 h-screen md:h-auto&quot;]/div[@class=&quot;flex-1 overflow-visible p-0 w-full&quot;]/form[1]/div[@class=&quot;mt-9 absolute md:relative w-full md:w-auto flex md:bottom-0 bottom-4 flex-row justify-between items-center md:gap-4&quot;]/div[@class=&quot;pr-12 md:pr-0 w-1/2 flex justify-end&quot;]/button[@class=&quot;focus:outline-none focus:!ring-transparent border border-none bg-primary hover:bg-primary-600 active:bg-primary-700 text-white p-0 rounded-full px-4 py-1 md:py-0&quot;]/span[@class=&quot;items-stretch transition-all duration-200 flex justify-center py-3 px-5 rounded-xl text-sm&quot;]</value>
+      <webElementGuid>d5fa4fcd-c875-4618-9e4e-e47b4a2297e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='block-schedule-modal']/div/div/div[2]/form/div[3]/div[2]/button/span</value>
+      <webElementGuid>ed2e6ed0-45bb-44e4-89c4-57a3387a962f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-- horas'])[1]/following::span[1]</value>
+      <webElementGuid>6686d471-a37d-4601-b493-9fefada4d2fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL'])[1]/following::span[2]</value>
+      <webElementGuid>3701cdb2-0b15-4553-b2a1-81edb04b1cf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>44eefec0-7725-49c6-a15f-0c876f088197</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/button/span</value>
+      <webElementGuid>a7e950ef-a2f8-46c2-97d6-f6dca405ff23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Guardar' or . = 'Guardar')]</value>
+      <webElementGuid>8ca68ea8-0503-45a0-bbc1-73edff7081c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hasta *'])[1]/following::span[3]</value>
+      <webElementGuid>93a0ba95-ecec-47ad-9c70-64bbca551a35</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
