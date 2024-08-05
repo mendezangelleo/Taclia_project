@@ -67,5 +67,5 @@ catch (Exception e) {
 // Lanzar la excepción para que el test falle
 finally { 
     // Cerrar la aplicación
-    LoginPage.close()
+    //LoginPage.close()
 }
