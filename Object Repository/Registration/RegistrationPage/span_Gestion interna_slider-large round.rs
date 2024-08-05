@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Gestion interna_slider-large round</name>
+   <tag></tag>
+   <elementGuidId>4277dcef-4849-4fe2-8aef-7559599a1d83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bodyContainer']/roma-company-modules/div[2]/div/div/div/div/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.slider-large.round</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.slider-large >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>6c526537-7022-4013-a72f-744640bd342d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slider-large round</value>
+      <webElementGuid>0ba6656c-c480-4031-a0d9-62dafdfbc84f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bodyContainer&quot;)/roma-company-modules[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;register_container wrapper-pro-feature-user is-user-available&quot;]/div[@class=&quot;form-functions&quot;]/div[@class=&quot;form-functions-card gestion-interna&quot;]/div[@class=&quot;module-card&quot;]/div[@class=&quot;module-content&quot;]/div[@class=&quot;module-content-option-title&quot;]/label[@class=&quot;switch-large custom-tooltip bottom&quot;]/span[@class=&quot;slider-large round&quot;]</value>
+      <webElementGuid>ce0220b1-d53b-47b1-8be4-473bbc703a28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bodyContainer']/roma-company-modules/div[2]/div/div/div/div/div/label/span</value>
+      <webElementGuid>52effb66-e255-47a1-9b80-03d21fca7b51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>f082fa1f-cb5b-463f-9a6b-32c6273aff3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

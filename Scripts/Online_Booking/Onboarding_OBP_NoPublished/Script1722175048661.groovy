@@ -25,7 +25,7 @@ try {
 	
 	LoginPage.open()
 	LoginPage.acceptCookies()
-	LoginPage.fillForm( TestConfig.email, TestConfig.password)
+	LoginPage.fillForm(email, TestConfig.password)
 	LoginPage.clickLogin()
 	
 	

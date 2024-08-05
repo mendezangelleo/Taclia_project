@@ -3,6 +3,7 @@ package pages
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
 import java.util.Random
@@ -149,5 +150,16 @@ class RegistrationPage {
 		// Si se sale del bucle sin haber encontrado la URL, lanzar un error
 		String currentUrl = WebUI.getUrl()
 		throw new AssertionError("URL actual no coincide con el patrón esperado. URL actual: " + currentUrl + ", Patrón esperado: " + expectedUrlPattern)
+	}
+	
+	static void enableAllFeature() {
+		
+		WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
+		
+		
+		WebUI.check(findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'))
+		WebUI.check(findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round'))
+		WebUI.check(findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'))
+		
 	}
 }

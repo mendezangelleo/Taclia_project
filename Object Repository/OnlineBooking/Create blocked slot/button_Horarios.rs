@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id=':r2:-tab-1']</value>
+         <value>//button[@id=':ra:-tab-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a12fc3eb-6e98-4fce-a196-8c7f4498dd2d</webElementGuid>
+      <webElementGuid>97d69bee-6826-4e59-a1a9-521bdd2bfa85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +37,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b8088c16-1953-4fc8-8b7b-75bc94d1d0f4</webElementGuid>
+      <webElementGuid>27ea18f1-0163-4566-a4c5-aff9254e1645</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-controls</name>
       <type>Main</type>
-      <value>:r2:-tabpanel-1</value>
-      <webElementGuid>fd0b61a9-f46e-4181-9ded-7baf80c7f0d3</webElementGuid>
+      <value>:ra:-tabpanel-1</value>
+      <webElementGuid>c6605d2f-bf1f-4d8b-8283-a44f2ebc1c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7ad15e7f-b3eb-432e-9381-7c9b52b58ed2</webElementGuid>
+      <webElementGuid>22d6d8a4-511c-49fd-90f2-b7d4cbe4a0dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,15 +61,15 @@
       <name>class</name>
       <type>Main</type>
       <value>flex items-center justify-center pt-1 text-[14px] text-nowrap px-2 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500 rounded-t-lg text-neutral-700 border-b-2 border-transparent hover:border-neutral-500 dark:text-gray-400 dark:hover:text-gray-300</value>
-      <webElementGuid>989a907d-8643-490e-b40b-6545f6626c06</webElementGuid>
+      <webElementGuid>e517fc0f-37b6-47a6-aec6-9bc168242c3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>:r2:-tab-1</value>
-      <webElementGuid>bba17fb8-f3ad-4aa4-94d3-c547c8fc8f48</webElementGuid>
+      <value>:ra:-tab-1</value>
+      <webElementGuid>4a1dd21a-c7b1-475d-b324-3a581d73cace</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>176baefb-55fa-4b4b-8351-b5a584af93c2</webElementGuid>
+      <webElementGuid>cedb0bfc-d0c7-4c3a-a67c-65b35d56d910</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>2f8fe1fb-5b02-4834-b17e-1599bd1799f0</webElementGuid>
+      <webElementGuid>0f26eb60-e391-47cc-a933-49e02138be11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,23 +93,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Horarios</value>
-      <webElementGuid>ab5d79a5-744c-48e1-95ce-22dbd47054be</webElementGuid>
+      <webElementGuid>e1220d5f-de69-412b-80a2-a42602d85bd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:r2:-tab-1&quot;)</value>
-      <webElementGuid>c53c1fac-fdfc-44ef-bdec-648d95322a5f</webElementGuid>
+      <value>id(&quot;:ra:-tab-1&quot;)</value>
+      <webElementGuid>b4b6f3fa-2c75-4239-91e7-b05ed4a97aea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id=':r2:-tab-1']</value>
-      <webElementGuid>1843196e-3997-475e-ab2c-241973a72900</webElementGuid>
+      <value>//button[@id=':ra:-tab-1']</value>
+      <webElementGuid>6a76ab85-7cf3-4b98-9147-906d7f9b8bc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bodyContainer']/roma-mf-online-booking/mf-online-booking/div/div/div/div/div/div/button[2]</value>
-      <webElementGuid>97a3086f-474b-42e8-9bcc-beb2f622fd83</webElementGuid>
+      <webElementGuid>7ea9eeb6-435f-48bd-ad16-fd1ba5d39125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información básica'])[1]/following::button[1]</value>
-      <webElementGuid>94727293-05ec-47f8-b517-e273d05a91c7</webElementGuid>
+      <webElementGuid>8a490428-ab3e-47be-a793-bb1ddbca2ecc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reservas Online'])[2]/following::button[3]</value>
-      <webElementGuid>09b9ab77-59d7-4614-be5c-b0155cc6486d</webElementGuid>
+      <webElementGuid>a63e6256-f417-4351-bd28-5281a70d6c7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Productos / Servicios'])[1]/preceding::button[1]</value>
-      <webElementGuid>43234025-b736-4fd6-bc43-97634cab80a8</webElementGuid>
+      <webElementGuid>c6f7f8ec-2cbd-4be9-a047-09f76f621a4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información del negocio'])[1]/preceding::button[2]</value>
-      <webElementGuid>b8219266-4af8-4af7-8ba2-75cae8c1e350</webElementGuid>
+      <webElementGuid>b279f392-5dcc-4e1b-844e-544a055df6d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +157,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Horarios']/parent::*</value>
-      <webElementGuid>70135035-1949-4939-b595-27bae60a022f</webElementGuid>
+      <webElementGuid>df423eb8-8476-43b7-8d2e-35cbce5fb149</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,14 +165,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/button[2]</value>
-      <webElementGuid>ff9ac9e6-9110-438b-9ab1-10e44926b921</webElementGuid>
+      <webElementGuid>d1da8316-20b0-415b-948f-278c8440cdab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = ':r2:-tab-1' and (text() = 'Horarios' or . = 'Horarios')]</value>
-      <webElementGuid>b02aac87-56b3-405c-86f0-d440cc9fcbe9</webElementGuid>
+      <value>//button[@type = 'button' and @id = ':ra:-tab-1' and (text() = 'Horarios' or . = 'Horarios')]</value>
+      <webElementGuid>d3b05c0f-72e9-483a-adb3-2317972e2ef4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

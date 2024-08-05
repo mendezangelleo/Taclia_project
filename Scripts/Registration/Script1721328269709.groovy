@@ -54,6 +54,10 @@ try {
     RegistrationPage.validateUrlAfterRegistration(selectedOptionIndex)
 
     WebUI.comment('URL validada después del registro.')
+	
+	RegistrationPage.enableAllFeature()
+	
+	return generatedEmail
 }
 catch (Exception e) {
     WebUI.comment('Error: ' + e.getMessage())

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Funcionalidades</name>
+   <tag></tag>
+   <elementGuidId>43bc187d-1477-4e11-b55c-3f789876b842</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear'])[1]/following::a[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.mat-focus-indicator.button-sidebar.mat-button.mat-button-base.user-feature-hide.is-user-available.is-checkable.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Funcionalidades Funcionalidades&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>56874029-34e4-4afd-92e6-7aff582df30e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator button-sidebar mat-button mat-button-base user-feature-hide is-user-available is-checkable cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>f5045a3d-98d9-41aa-a634-256a7332548c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b486b0ea-8880-4e26-a26a-09025a2df772</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cba6df84-0d7b-444a-be9f-8981fee4994d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/company-modules</value>
+      <webElementGuid>5f69bb83-8eab-4a55-8536-364155a07b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Funcionalidades</value>
+      <webElementGuid>af7ced0d-94a1-44e1-8413-700d85e40242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/roma-root[1]/roma-admin[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;site&quot;]/div[@class=&quot;sidebar-container ng-star-inserted&quot;]/roma-sidebar[@class=&quot;roma-sidebar ng-star-inserted&quot;]/div[@class=&quot;desktop-sidebar&quot;]/div[@class=&quot;desktop-sidebar-body no-improve&quot;]/div[@class=&quot;category-wraper&quot;]/a[@class=&quot;mat-focus-indicator button-sidebar mat-button mat-button-base user-feature-hide is-user-available is-checkable cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>0a9ab1f4-5fcf-4e65-8e39-934e0f5428da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear'])[1]/following::a[1]</value>
+      <webElementGuid>d492b107-f925-44d6-86d1-ecb791befa44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E'])[1]/following::a[1]</value>
+      <webElementGuid>2ee31439-2449-4789-b900-d0bb080c3817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendario'])[2]/preceding::a[1]</value>
+      <webElementGuid>abd56359-a68e-4b58-9acf-0d25bdda09eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/company-modules')]</value>
+      <webElementGuid>c66f00d5-e159-4947-bc21-1080b2683f4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/a</value>
+      <webElementGuid>9c73da3d-5b33-4a77-af07-f9d982f189ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/company-modules' and (text() = 'Funcionalidades' or . = 'Funcionalidades')]</value>
+      <webElementGuid>cce3ac20-9b61-4c84-b85e-66c0cb18549f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
