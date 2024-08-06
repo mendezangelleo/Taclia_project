@@ -6,25 +6,14 @@ import java.nio.file.StandardOpenOption
 import java.util.Random
 
 class EmailGenerator {
-    private static String incrementorPath = Paths.get(System.getProperty("user.dir"), "Incrementor.txt").toString()
     private static String emailListPath = Paths.get(System.getProperty("user.dir"), "EmailsUsed.txt").toString()
 
     static String getNextEmail() {
-        int number = 0
-        if (Files.exists(Paths.get(incrementorPath))) {
-            List<String> lines = Files.readAllLines(Paths.get(incrementorPath))
-            if (!lines.isEmpty()) {
-                number = Integer.parseInt(lines.get(0))
-            }
-        }
-        number++
-        Files.write(Paths.get(incrementorPath), String.valueOf(number).getBytes(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)
-
         // Generar cadena aleatoria
         String randomString = generateRandomString(8)
 
-        String email = "amendez+${randomString}${number}@taclia.com"
-        
+        String email = "amendez+${randomString}@taclia.com"
+
         // Guardar el email generado en el archivo
         saveEmail(email)
 
