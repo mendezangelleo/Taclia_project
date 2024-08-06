@@ -159,50 +159,50 @@ class RegistrationPage {
 		throw new AssertionError("URL actual no coincide con el patrón esperado. URL actual: " + currentUrl + ", Patrón esperado: " + expectedUrlPattern)
 	}
 
-	 static void enableAllFeature() {
-        WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
+	static void enableAllFeature() {
+		WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
 
-        List<TestObject> sliders = [
-            findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
-            findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'),
-            findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round')
-        ]
+		List<TestObject> sliders = [
+			findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
+			findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'),
+			findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round')
+		]
 
-        for (TestObject slider : sliders) {
-            if (!isSliderGreen(slider)) {
-                try {
-                    scrollIntoView(slider) // Desplazar el elemento al viewport
-                    WebUI.click(slider) // Usar `TestObject` para el clic
-                } catch (Exception e) {
-                    WebUI.comment("Error al habilitar el slider: " + e.getMessage())
-                }
-            } else {
-                WebUI.comment("El slider ya está en verde, no se realiza el clic.")
-            }
-        }
-    }
+		for (TestObject slider : sliders) {
+			if (!isSliderGreen(slider)) {
+				try {
+					scrollIntoView(slider) // Desplazar el elemento al viewport
+					WebUI.click(slider) // Usar `TestObject` para el clic
+				} catch (Exception e) {
+					WebUI.comment("Error al habilitar el slider: " + e.getMessage())
+				}
+			} else {
+				WebUI.comment("El slider ya está en verde, no se realiza el clic.")
+			}
+		}
+	}
 
-    static boolean isSliderGreen(TestObject testObject) {
-        try {
-            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
-            String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
-            return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
-        } catch (Exception e) {
-            WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
-            return false
-        }
-    }
+	static boolean isSliderGreen(TestObject testObject) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+			WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
+			String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
+			return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
+		} catch (Exception e) {
+			WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
+			return false
+		}
+	}
 
-    static void scrollIntoView(TestObject testObject) {
-        try {
-            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
-            JavascriptExecutor js = (JavascriptExecutor) driver
-            js.executeScript('arguments[0].scrollIntoView(true);', element)
-        } catch (Exception e) {
-            WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
-        }
-    }
+	static void scrollIntoView(TestObject testObject) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+			WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
+			JavascriptExecutor js = (JavascriptExecutor) driver
+			js.executeScript('arguments[0].scrollIntoView(true);', element)
+		} catch (Exception e) {
+			WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
+		}
+	}
 }
 

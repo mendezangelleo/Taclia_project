@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='cdk-accordion-child-2']/div/div[2]/a</value>
+         <value>/html/body/roma-root/roma-admin/div/div[1]/roma-sidebar/div[1]/div[2]/div[4]/mat-expansion-panel/div/div/div[2]/a[1]/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cd4b75da-0195-469c-ad56-884537c38f63</webElementGuid>
+      <webElementGuid>d2b458cc-0e1b-4c9f-9aa7-72f7c06b4b78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator button-sidebar-dropdown mat-menu-item user-feature-hide is-user-available is-checkable cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>6d1886ce-4a36-4692-ac45-73d63682912a</webElementGuid>
+      <webElementGuid>0c352400-f4c2-469f-a0f5-ed97eccf67ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>9b1fa6bf-ec8f-42b9-b67b-f98d9e0011d2</webElementGuid>
+      <webElementGuid>332a9e9e-c7fd-40a7-80e6-8c2e1fc5e2c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>3d850a93-fd65-49c5-8feb-f2a630ef35d0</webElementGuid>
+      <webElementGuid>41df4e24-338d-48cc-9bdf-6d9febd482c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>830929dc-b89f-406a-923c-52aa437bbcd3</webElementGuid>
+      <webElementGuid>ae168280-8ab6-4fe8-81a6-24687ff46567</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/admin/clock-hours</value>
-      <webElementGuid>956d83cc-f095-437e-8d9a-a9c1c7a77927</webElementGuid>
+      <webElementGuid>f910e952-6f52-48bf-bc79-50543ec7d376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mis fichajes</value>
-      <webElementGuid>6a7acfb8-e3d8-4bb7-a70c-c94d77182968</webElementGuid>
+      <webElementGuid>55f35531-c620-4454-81a2-bf580e9d06ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-accordion-child-2&quot;)/div[@class=&quot;mat-expansion-panel-body ng-tns-c160-7&quot;]/div[@class=&quot;sidebar-dropdown-wrapper ng-tns-c160-7&quot;]/a[@class=&quot;mat-focus-indicator button-sidebar-dropdown mat-menu-item user-feature-hide is-user-available is-checkable cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>b564b73d-84af-4825-86d0-2673f95fba62</webElementGuid>
+      <webElementGuid>8b5b6753-c4e0-4e4a-b269-d539609c32ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-accordion-child-2']/div/div[2]/a</value>
-      <webElementGuid>67c319ef-4318-44a4-a1f5-967cd5c865b2</webElementGuid>
+      <webElementGuid>3d363c73-d2a5-4663-aab8-5f12d8e647f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Control horario'])[1]/following::a[1]</value>
-      <webElementGuid>7ff2774c-363b-4137-87ee-7fcb65379d0b</webElementGuid>
+      <webElementGuid>f077cbfd-0ae8-407b-9632-3b88df734c17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestión interna'])[1]/following::a[1]</value>
-      <webElementGuid>220bf4fe-78d0-4b26-8761-050dea945456</webElementGuid>
+      <webElementGuid>51c0caac-3b5c-4314-b85a-cf117b22824a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis ausencias'])[1]/preceding::a[1]</value>
-      <webElementGuid>af459c0a-1227-4494-8295-f1b4e95de4ee</webElementGuid>
+      <webElementGuid>2afbb798-c1a7-414f-9214-ba63802ed5d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/admin/clock-hours')]</value>
-      <webElementGuid>f2039e5d-c888-4ba2-bbb0-0178bb1532b3</webElementGuid>
+      <webElementGuid>53656e80-a038-4ad7-85d6-7ac6cd1c99db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/mat-expansion-panel/div/div/div[2]/a</value>
-      <webElementGuid>38a755ca-911b-4aaf-afda-c3adc02cdb4e</webElementGuid>
+      <webElementGuid>838cc0e2-473b-46f2-aad6-edbd237d7c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/admin/clock-hours' and (text() = 'Mis fichajes' or . = 'Mis fichajes')]</value>
-      <webElementGuid>eae9f26b-0c99-4972-802c-0ccf0b18d915</webElementGuid>
+      <webElementGuid>afb61601-6330-4e04-a54c-cc7cc3a1f9e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
