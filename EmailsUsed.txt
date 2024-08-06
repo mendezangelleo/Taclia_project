@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 amendez+Q6v8n6G0@taclia.com
 amendez+mx6GcUuR@taclia.com
 amendez+qaZhRQDn@taclia.com
 amendez+8UasCGr7@taclia.com
+=======
+amendez+szVehWCf@taclia.com
+amendez+hOFonUGP@taclia.com
+amendez+P39FOT9T@taclia.com
+>>>>>>> ddd842a1600c13a12a333247d2cd8b1260ebd59b

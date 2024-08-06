@@ -6,12 +6,12 @@
    <elementGuidId>9d02351c-2444-4965-b172-eed9a8bb639e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id='hour-input'])[11]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;:rc:&quot;)/div[@id=&quot;block-schedule-modal&quot;]/div[@id=&quot;block-schedule-modal&quot;]/div[@class=&quot;relative md:rounded-3xl rounded-none bg-white&quot;]/div[@class=&quot;md:px-10 md:pt-6 md:pb-8 px-6 py-4 h-screen md:h-auto&quot;]/div[@class=&quot;flex-1 overflow-visible p-0 w-full&quot;]/form[1]/div[@class=&quot;w-full flex md:flex-row flex-col gap-4 mt-7&quot;]/div[@class=&quot;md:w-2/5 w-full flex flex-col gap-4&quot;]/div[@class=&quot;flex flex-row gap-4 -mb-3 w-full relative mb-5&quot;]/div[@class=&quot;w-1/2 flex flex-col&quot;]/div[1]/div[@class=&quot;relative&quot;]/input[@id=&quot;hour-input&quot;][count(. | //input[@type = 'text' and @placeholder = '--:--' and @id = 'hour-input' and @data-testid = 'hour-input' and @class = 'font-regular pr-4 py-3 bg-white text-sm resize-none rounded-lg border !ring-transparent !outline-none placeholder:text-[#8C9DD2] w-full h-11 !text-center !w-[68px] h-10 md:!h-10 !pl-3 !pr-3 !py-1 md:!w-24 md:px-6 md:py-2  text-start border-primary-100']) = count(//input[@type = 'text' and @placeholder = '--:--' and @id = 'hour-input' and @data-testid = 'hour-input' and @class = 'font-regular pr-4 py-3 bg-white text-sm resize-none rounded-lg border !ring-transparent !outline-none placeholder:text-[#8C9DD2] w-full h-11 !text-center !w-[68px] h-10 md:!h-10 !pl-3 !pr-3 !py-1 md:!w-24 md:px-6 md:py-2  text-start border-primary-100'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id='hour-input'])[11]</value>
       </entry>
       <entry>
          <key>CSS</key>

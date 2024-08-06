@@ -159,8 +159,13 @@ class RegistrationPage {
 		throw new AssertionError("URL actual no coincide con el patrón esperado. URL actual: " + currentUrl + ", Patrón esperado: " + expectedUrlPattern)
 	}
 
+<<<<<<< HEAD
 	static void enableAllFeature() {
 		WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
+=======
+	  static void enableAllFeature() {
+        WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
+>>>>>>> ddd842a1600c13a12a333247d2cd8b1260ebd59b
 
 		List<TestObject> sliders = [
 			findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
@@ -182,6 +187,7 @@ class RegistrationPage {
 		}
 	}
 
+<<<<<<< HEAD
 	static boolean isSliderGreen(TestObject testObject) {
 		try {
 			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
@@ -204,5 +210,25 @@ class RegistrationPage {
 			WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
 		}
 	}
+=======
+    static boolean isSliderGreen(TestObject testObject) {
+        try {
+            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
+            String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
+            return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
+        } catch (Exception e) {
+            WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
+            return false
+        }
+    }
+
+    static void scrollIntoView(TestObject testObject) {
+        WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+        WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
+        JavascriptExecutor js = (JavascriptExecutor) driver
+        js.executeScript('arguments[0].scrollIntoView(true);', element)
+    }
+>>>>>>> ddd842a1600c13a12a333247d2cd8b1260ebd59b
 }
 
