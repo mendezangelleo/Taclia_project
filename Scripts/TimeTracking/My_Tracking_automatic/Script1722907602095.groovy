@@ -35,6 +35,7 @@ try {
 }
 catch (Exception e) {
     e.printStackTrace()
+    throw new AssertionError('Se produjo un error durante la ejecución del test: ' + e.getMessage())
 } 
 // Manejo de la excepción
 finally { 

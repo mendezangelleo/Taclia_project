@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Fecha 060824</name>
+   <tag></tag>
+   <elementGuidId>3773c1be-0336-4eaa-8193-32e7dfb965c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.date</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/roma-add-clock-hour/div/roma-modal-template/div/div/div[2]/form/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Fecha 06/08/24&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>577a4fb6-a247-4f56-847e-aa09b695bc8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>date</value>
+      <webElementGuid>a69eec39-489e-4d4e-a848-22d8a1ec9a7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Fecha 06/08/24 </value>
+      <webElementGuid>de1c730c-2fb4-4dde-91ea-0ee2759c24c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/roma-add-clock-hour[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper-pro-feature-user is-user-available&quot;]/roma-modal-template[1]/div[@class=&quot;safe-area-padding no-overflow-y&quot;]/div[@class=&quot;custom-modal custom-modal--mobile-full&quot;]/div[@class=&quot;custom-modal__body&quot;]/form[@class=&quot;wrapper-pro-feature-user is-user-available ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;date-hours-info&quot;]/div[@class=&quot;date&quot;]</value>
+      <webElementGuid>a8677a68-2d13-4320-b821-2cb5dee2ff39</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/roma-add-clock-hour/div/roma-modal-template/div/div/div[2]/form/div/div/div/div</value>
+      <webElementGuid>5826e9b8-6b79-44a2-9765-25ffc37a6355</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Añadir fichaje'])[1]/following::div[5]</value>
+      <webElementGuid>16693c02-2770-4b6a-a2d3-3d5925a06bf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No puedes fichar en dias futuros, solamente el dia en curso y dias pasados'])[1]/following::div[16]</value>
+      <webElementGuid>73a27ce4-f044-4104-875a-dfd767442a79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL'])[1]/preceding::div[1]</value>
+      <webElementGuid>dc35e01d-f619-4847-abc4-c6061869a643</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='06/08/24']/parent::*</value>
+      <webElementGuid>d0b132a6-cebd-48a0-87d1-b7ead74c225a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div</value>
+      <webElementGuid>78be85bc-82ab-4a18-bc47-689a52b9da31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Fecha 06/08/24 ' or . = 'Fecha 06/08/24 ')]</value>
+      <webElementGuid>9ccdc116-dbaf-43e5-926f-8ccb809b280a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

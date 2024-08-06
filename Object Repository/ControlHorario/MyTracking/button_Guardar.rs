@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Guardar</name>
+   <tag></tag>
+   <elementGuidId>ea049db1-67a5-4808-b7b8-2b361a8dd7d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.primary.small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/roma-add-clock-hour/div/roma-modal-template/div/div/div[3]/div/base-button/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Guardar&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>de5c1cef-682a-4c49-be09-33a83fe6efcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>primary small</value>
+      <webElementGuid>022413be-e594-489d-a7af-da1350354ec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Guardar </value>
+      <webElementGuid>54c4ad2c-c8b5-4bc9-a71d-f6e53a5bd5c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-0&quot;)/roma-add-clock-hour[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper-pro-feature-user is-user-available&quot;]/roma-modal-template[1]/div[@class=&quot;safe-area-padding no-overflow-y&quot;]/div[@class=&quot;custom-modal custom-modal--mobile-full&quot;]/div[@class=&quot;modalFooter ng-star-inserted&quot;]/div[@class=&quot;groupEndDiv&quot;]/base-button[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;primary small&quot;]</value>
+      <webElementGuid>f5e675ad-626f-449a-a0a0-6f2e14e184b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/roma-add-clock-hour/div/roma-modal-template/div/div/div[3]/div/base-button/button</value>
+      <webElementGuid>771d7369-9786-4a8a-a9a5-6de07cdd3daf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Añadir horas'])[1]/following::button[1]</value>
+      <webElementGuid>85d2c4ab-ee9b-45be-9b3a-ca11a619e754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOTAL'])[1]/following::button[2]</value>
+      <webElementGuid>d263c264-cc7b-4c67-b099-4664e3cc2ed1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <webElementGuid>4af572e1-790f-4aab-831d-67095c55dee4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//base-button/button</value>
+      <webElementGuid>9052c3cf-c672-49cd-855a-028249bc585c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Guardar ' or . = ' Guardar ')]</value>
+      <webElementGuid>36d1366e-3ca8-4ac4-b04f-7f3f7fa90abe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
