@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import pages.LoginPage as LoginPage
 import pages.OnlineBooking as OnlineBooking
 import config.TestConfig as TestConfig
+import pages.GeneralUse as GeneralUse
 
 WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
@@ -40,6 +41,6 @@ catch (Exception e) {
 // Falla el Test Case en caso de excepción
 finally { 
     // Cerrar la aplicación o realizar acciones de limpieza
-    LoginPage.close()
+    //GeneralUse.close()
 }
 

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>366dc8cf-6f4d-4d33-821d-48d0b521cc2b</webElementGuid>
+      <webElementGuid>e60fe130-6811-4ec7-b905-258df3af6031</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>slider-large round</value>
-      <webElementGuid>3886fd0a-0e78-48af-9996-1b50d4fbd19e</webElementGuid>
+      <webElementGuid>c2cea2c6-eb8a-49d1-9692-ccf29ca2d73c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bodyContainer&quot;)/roma-company-modules[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;register_container wrapper-pro-feature-user is-user-available&quot;]/div[@class=&quot;form-functions&quot;]/div[@class=&quot;form-functions-card ventas is-active&quot;]/div[@class=&quot;module-card&quot;]/div[@class=&quot;module-content&quot;]/div[@class=&quot;module-content-option-title&quot;]/label[@class=&quot;switch-large custom-tooltip bottom&quot;]/span[@class=&quot;slider-large round&quot;]</value>
-      <webElementGuid>4df7be3b-4f2a-4f2b-b429-d3a7f51efd82</webElementGuid>
+      <webElementGuid>8fb29f2d-37e7-4b91-8887-9a1ef56afce0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bodyContainer']/roma-company-modules/div[2]/div/div[2]/div/div/div/label/span</value>
-      <webElementGuid>7715cdc1-f85a-46dd-a0e9-68904d73a85b</webElementGuid>
+      <webElementGuid>beb69bee-4b3a-446c-be66-7004a0cba1c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/label/span</value>
-      <webElementGuid>f6a497b6-4d33-49ca-8a55-e17516862a2c</webElementGuid>
+      <webElementGuid>1eb58765-48da-49e8-b73a-24e77e23af6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
