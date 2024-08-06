@@ -29,7 +29,7 @@ String reason = 'test automation' + randomNumber
 
 WebUI.callTestCase(findTestCase('Online_Booking/Onboarding_OBP_published'), [ :], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/button_Horarios'))
+WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/button_horarios'))
 
 WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/span_Aadir bloqueo'))
 

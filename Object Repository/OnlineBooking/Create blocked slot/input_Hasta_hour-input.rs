@@ -6,11 +6,11 @@
    <elementGuidId>3b47405c-7f77-4071-b911-ef64e7828a24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id='hour-input'])[12]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//input[@id='hour-input'])[12]</value>
       </entry>
       <entry>
          <key>CSS</key>
