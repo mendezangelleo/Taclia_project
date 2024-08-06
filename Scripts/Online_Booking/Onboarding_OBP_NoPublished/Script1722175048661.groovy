@@ -17,34 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import pages.LoginPage as LoginPage
-import pages.OnlineBooking
-import config.TestConfig
+import pages.OnlineBooking as OnlineBooking
+import config.TestConfig as TestConfig
+import pages.GeneralUse as GeneralUse
 
+WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
 try {
-	
-	LoginPage.open()
-	LoginPage.acceptCookies()
-	LoginPage.fillForm(email, TestConfig.password)
-	LoginPage.clickLogin()
-	
-	
-	OnlineBooking.navigateToOnlineBooking()
 
-	
-	OnlineBooking.createBookingPage(TestConfig.businessName)
+    OnlineBooking.navigateToOnlineBooking()
 
-	
-	OnlineBooking.createProductOrService(TestConfig.serviceName)
+    OnlineBooking.createBookingPage(TestConfig.businessName)
 
-	
-	OnlineBooking.saveAndNoPublishPage()
+    OnlineBooking.createProductOrService(TestConfig.serviceName)
 
-}catch (Exception e) {
-    // Manejo de la excepción
-    e.printStackTrace()
-    // Falla el Test Case en caso de excepción
-    WebUI.markFailed("Se produjo un error durante la ejecución del Test Case: " + e.message)
-} finally {
-	LoginPage.close()
+    OnlineBooking.saveAndNoPublishPage()
 }
+catch (Exception e) {
+    e.printStackTrace()
+
+    WebUI.markFailed('Se produjo un error durante la ejecución del Test Case: ' + e.message)
+} 
+// Manejo de la excepción
+// Falla el Test Case en caso de excepción
+finally { 
+   // GeneralUse.close()
+}
+

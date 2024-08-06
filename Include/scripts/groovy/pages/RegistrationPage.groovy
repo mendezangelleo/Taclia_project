@@ -159,7 +159,7 @@ class RegistrationPage {
 		throw new AssertionError("URL actual no coincide con el patrón esperado. URL actual: " + currentUrl + ", Patrón esperado: " + expectedUrlPattern)
 	}
 
-	  static void enableAllFeature() {
+	 static void enableAllFeature() {
         WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
 
         List<TestObject> sliders = [
@@ -185,7 +185,7 @@ class RegistrationPage {
     static boolean isSliderGreen(TestObject testObject) {
         try {
             WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
+            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
             String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
             return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
         } catch (Exception e) {
@@ -195,10 +195,14 @@ class RegistrationPage {
     }
 
     static void scrollIntoView(TestObject testObject) {
-        WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-        WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
-        JavascriptExecutor js = (JavascriptExecutor) driver
-        js.executeScript('arguments[0].scrollIntoView(true);', element)
+        try {
+            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
+            JavascriptExecutor js = (JavascriptExecutor) driver
+            js.executeScript('arguments[0].scrollIntoView(true);', element)
+        } catch (Exception e) {
+            WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
+        }
     }
 }
 
