@@ -147,11 +147,12 @@ class RegistrationPage {
         List<TestObject> sliders = [
             findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
             findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'),
-            findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round')
+            findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round'),
+            findTestObject('Object Repository/Registration/RegistrationPage/span_controlHorario')
         ]
 
         for (TestObject slider : sliders) {
-            if (!isSliderGreen(slider)) {
+            if (isValidXpath(slider) && !isSliderGreen(slider)) {
                 try {
                     scrollIntoView(slider) // Desplazar el elemento al viewport
                     WebUI.click(slider) // Usar `TestObject` para el clic
@@ -185,6 +186,15 @@ class RegistrationPage {
         } catch (Exception e) {
             WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
         }
+    }
+
+    static boolean isValidXpath(TestObject testObject) {
+        String xpath = testObject.findPropertyValue('xpath').toString()
+        if (xpath == null || xpath.isEmpty()) {
+            WebUI.comment("XPath no es válido: " + xpath)
+            return false
+        }
+        return true
     }
 }
 
