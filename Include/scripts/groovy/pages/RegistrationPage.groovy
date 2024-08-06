@@ -15,7 +15,6 @@ import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
 import org.openqa.selenium.WebDriver
 import com.kms.katalon.core.configuration.RunConfiguration
 
-
 class RegistrationPage {
 	static void fillForm(String email, String phone, String password) {
 		WebUI.setText(findTestObject('Object Repository/Registration/RegistrationPage/form_screen/input_Correo electrnico_email'), email)
@@ -34,15 +33,11 @@ class RegistrationPage {
 			return
 		}
 
-
 		String sectorLocator = "//*[@id='sectorContainer_${sectorId}']"
 		TestObject sectorObject = new TestObject()
 		sectorObject.addProperty("xpath", ConditionType.EQUALS, sectorLocator)
 
-
 		WebUI.waitForElementVisible(sectorObject, 30)
-
-
 		WebUI.click(sectorObject)
 	}
 
@@ -51,24 +46,16 @@ class RegistrationPage {
 	}
 
 	static int selectManagementOption() {
-
 		String optionLocator = "//div[@class='item-sector']"
-
-
 		TestObject dynamicObject = new TestObject()
 		dynamicObject.addProperty("xpath", ConditionType.EQUALS, optionLocator)
 
-
 		List<WebElement> options = WebUiCommonHelper.findWebElements(dynamicObject, 30)
-
-
 		Random random = new Random()
 		int randomIndex = random.nextInt(options.size())
 
-
 		WebElement selectedOption = options.get(randomIndex)
 		selectedOption.click()
-
 
 		return randomIndex
 	}
@@ -87,7 +74,6 @@ class RegistrationPage {
 	}
 
 	static void validatePageAfterSelection(int optionIndex) {
-		// Validar los elementos web en la pantalla de selección de opciones
 		switch (optionIndex) {
 			case 0:
 				WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/RegistrationPage/step2_screen/time_tracking_feature'), 30)
@@ -113,12 +99,10 @@ class RegistrationPage {
 	}
 
 	static void validateUrlAfterRegistration(int optionIndex) {
-		// Definir un tiempo máximo de espera
 		int timeout = 30
 		int interval = 2
 		int elapsedTime = 0
 
-		// URL esperada para cada opción
 		String expectedUrlPattern = ''
 		switch (optionIndex) {
 			case 0:
@@ -143,7 +127,6 @@ class RegistrationPage {
 				throw new IllegalStateException("Opción no válida: " + optionIndex)
 		}
 
-		// Esperar hasta que la URL coincida con el patrón esperado
 		while (elapsedTime < timeout) {
 			String currentUrl = WebUI.getUrl()
 			if (currentUrl ==~ expectedUrlPattern) {
@@ -154,18 +137,12 @@ class RegistrationPage {
 			elapsedTime += interval
 		}
 
-		// Si se sale del bucle sin haber encontrado la URL, lanzar un error
 		String currentUrl = WebUI.getUrl()
 		throw new AssertionError("URL actual no coincide con el patrón esperado. URL actual: " + currentUrl + ", Patrón esperado: " + expectedUrlPattern)
 	}
 
-<<<<<<< HEAD
 	static void enableAllFeature() {
 		WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
-=======
-	  static void enableAllFeature() {
-        WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
->>>>>>> ddd842a1600c13a12a333247d2cd8b1260ebd59b
 
 		List<TestObject> sliders = [
 			findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
@@ -187,7 +164,6 @@ class RegistrationPage {
 		}
 	}
 
-<<<<<<< HEAD
 	static boolean isSliderGreen(TestObject testObject) {
 		try {
 			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
@@ -210,25 +186,5 @@ class RegistrationPage {
 			WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
 		}
 	}
-=======
-    static boolean isSliderGreen(TestObject testObject) {
-        try {
-            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
-            String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
-            return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
-        } catch (Exception e) {
-            WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
-            return false
-        }
-    }
-
-    static void scrollIntoView(TestObject testObject) {
-        WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-        WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
-        JavascriptExecutor js = (JavascriptExecutor) driver
-        js.executeScript('arguments[0].scrollIntoView(true);', element)
-    }
->>>>>>> ddd842a1600c13a12a333247d2cd8b1260ebd59b
 }
 
