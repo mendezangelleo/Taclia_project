@@ -142,49 +142,56 @@ class RegistrationPage {
 	}
 
 	static void enableAllFeature() {
-		WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
+        WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
 
-		List<TestObject> sliders = [
-			findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
-			findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'),
-			findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round')
-		]
+        List<String> xpaths = [
+            '/html/body/roma-root/roma-admin/div/div[2]/div[2]/div/roma-company-modules/div[2]/div/div[2]/div/div/div[1]/label/span',
+            '/html/body/roma-root/roma-admin/div/div[2]/div[2]/div/roma-company-modules/div[2]/div/div[1]/div/div/div[1]/label/span',
+            '/html/body/roma-root/roma-admin/div/div[2]/div[2]/div/roma-company-modules/div[2]/div/div[3]/div/div/div[1]/label/span'
+        ]
 
-		for (TestObject slider : sliders) {
-			if (!isSliderGreen(slider)) {
-				try {
-					scrollIntoView(slider) // Desplazar el elemento al viewport
-					WebUI.click(slider) // Usar `TestObject` para el clic
-				} catch (Exception e) {
-					WebUI.comment("Error al habilitar el slider: " + e.getMessage())
-				}
-			} else {
-				WebUI.comment("El slider ya está en verde, no se realiza el clic.")
-			}
-		}
-	}
+        for (String xpath : xpaths) {
+            if (!isSliderGreen(xpath)) {
+                try {
+                    TestObject testObject = createTestObject(xpath)
+                    scrollIntoView(testObject) // Desplazar el elemento al viewport
+                    WebUI.click(testObject) // Usar `TestObject` para el clic
+                } catch (Exception e) {
+                    WebUI.comment("Error al habilitar el slider: " + e.getMessage())
+                }
+            } else {
+                WebUI.comment("El slider ya está en verde, no se realiza el clic.")
+            }
+        }
+    }
 
-	static boolean isSliderGreen(TestObject testObject) {
-		try {
-			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-			WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
-			String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
-			return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
-		} catch (Exception e) {
-			WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
-			return false
-		}
-	}
+    static boolean isSliderGreen(String xpath) {
+        try {
+            WebElement element = DriverFactory.getWebDriver().findElement(By.xpath(xpath))
+            String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
+            return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
+        } catch (Exception e) {
+            WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
+            return false
+        }
+    }
 
-	static void scrollIntoView(TestObject testObject) {
-		try {
-			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-			WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
-			JavascriptExecutor js = (JavascriptExecutor) driver
-			js.executeScript('arguments[0].scrollIntoView(true);', element)
-		} catch (Exception e) {
-			WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
-		}
-	}
+    static TestObject createTestObject(String xpath) {
+        try {
+            TestObject testObject = new TestObject('CustomObject')
+            testObject.addProperty('xpath', ConditionType.EQUALS, xpath)
+            WebUI.comment("TestObject created with xpath: " + xpath)
+            return testObject
+        } catch (Exception e) {
+            WebUI.comment("Error creating TestObject: " + e.getMessage())
+            return null
+        }
+    }
+
+    static void scrollIntoView(TestObject testObject) {
+        WebElement element = DriverFactory.getWebDriver().findElement(By.xpath(testObject.findPropertyValue('xpath')))
+        JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getWebDriver()
+        js.executeScript('arguments[0].scrollIntoView(true);', element)
+    }
 }
 
