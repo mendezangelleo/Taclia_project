@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id=':ra:-tab-1']</value>
+         <value>/html/body/roma-root/roma-admin/div/div[2]/div[2]/div/roma-mf-online-booking/mf-online-booking/div/div/div/div/div/div[1]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>97d69bee-6826-4e59-a1a9-521bdd2bfa85</webElementGuid>
+      <webElementGuid>033a6081-0220-4047-8edd-60ce1e30cf1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>27ea18f1-0163-4566-a4c5-aff9254e1645</webElementGuid>
+      <webElementGuid>ee54182c-4529-47bb-b9ed-4b21469db34d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>:ra:-tabpanel-1</value>
-      <webElementGuid>c6605d2f-bf1f-4d8b-8283-a44f2ebc1c4d</webElementGuid>
+      <webElementGuid>597f920f-7345-44cb-aa8e-76206ef6b8cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>22d6d8a4-511c-49fd-90f2-b7d4cbe4a0dd</webElementGuid>
+      <webElementGuid>06005e66-f734-4ba7-ad3e-0da18f9a5012</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>class</name>
       <type>Main</type>
       <value>flex items-center justify-center pt-1 text-[14px] text-nowrap px-2 font-medium first:ml-0 focus:outline-none disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500 rounded-t-lg text-neutral-700 border-b-2 border-transparent hover:border-neutral-500 dark:text-gray-400 dark:hover:text-gray-300</value>
-      <webElementGuid>e517fc0f-37b6-47a6-aec6-9bc168242c3e</webElementGuid>
+      <webElementGuid>5ed3020c-f3c0-4eda-9989-7971ae0c598a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>id</name>
       <type>Main</type>
       <value>:ra:-tab-1</value>
-      <webElementGuid>4a1dd21a-c7b1-475d-b324-3a581d73cace</webElementGuid>
+      <webElementGuid>47100a11-99a9-489d-bec1-a4e43466b6fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>cedb0bfc-d0c7-4c3a-a67c-65b35d56d910</webElementGuid>
+      <webElementGuid>94b259cd-afb4-4881-8e5d-3b17676985f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>0f26eb60-e391-47cc-a933-49e02138be11</webElementGuid>
+      <webElementGuid>30eadb3e-907f-45ff-9cbf-d8a6790a57cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +92,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Horarios</value>
-      <webElementGuid>e1220d5f-de69-412b-80a2-a42602d85bd2</webElementGuid>
+      <webElementGuid>5b966168-0635-4788-8a80-ed64cf42d968</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;:ra:-tab-1&quot;)</value>
-      <webElementGuid>b4b6f3fa-2c75-4239-91e7-b05ed4a97aea</webElementGuid>
+      <webElementGuid>f2872375-1096-485b-964f-7f65a5c74c2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id=':ra:-tab-1']</value>
-      <webElementGuid>6a76ab85-7cf3-4b98-9147-906d7f9b8bc1</webElementGuid>
+      <webElementGuid>ae97df7f-2faa-444c-98c3-d06aec3bbc59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bodyContainer']/roma-mf-online-booking/mf-online-booking/div/div/div/div/div/div/button[2]</value>
-      <webElementGuid>7ea9eeb6-435f-48bd-ad16-fd1ba5d39125</webElementGuid>
+      <webElementGuid>3b6cb6fe-215d-4139-a818-93f3e76d9a1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información básica'])[1]/following::button[1]</value>
-      <webElementGuid>8a490428-ab3e-47be-a793-bb1ddbca2ecc</webElementGuid>
+      <webElementGuid>b1ec0d3a-9514-4490-8a24-37a9b22429c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reservas Online'])[2]/following::button[3]</value>
-      <webElementGuid>a63e6256-f417-4351-bd28-5281a70d6c7b</webElementGuid>
+      <webElementGuid>f286ce1f-03fe-4ed8-81b8-f02849b25a7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +140,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Productos / Servicios'])[1]/preceding::button[1]</value>
-      <webElementGuid>c6f7f8ec-2cbd-4be9-a047-09f76f621a4e</webElementGuid>
+      <webElementGuid>31f77ecf-7b02-48e3-b65c-26dedc923302</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +148,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Información del negocio'])[1]/preceding::button[2]</value>
-      <webElementGuid>b279f392-5dcc-4e1b-844e-544a055df6d1</webElementGuid>
+      <webElementGuid>33f7969a-835a-4034-ba2b-021902e2d962</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,7 +156,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Horarios']/parent::*</value>
-      <webElementGuid>df423eb8-8476-43b7-8d2e-35cbce5fb149</webElementGuid>
+      <webElementGuid>30834b83-2f3e-4eb8-8470-25b7d0ff8e32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,7 +164,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/button[2]</value>
-      <webElementGuid>d1da8316-20b0-415b-948f-278c8440cdab</webElementGuid>
+      <webElementGuid>fa093e7c-c79e-4c5a-a084-f7510bc9edf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -173,6 +172,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = ':ra:-tab-1' and (text() = 'Horarios' or . = 'Horarios')]</value>
-      <webElementGuid>d3b05c0f-72e9-483a-adb3-2317972e2ef4</webElementGuid>
+      <webElementGuid>c57be9be-f7a0-4d3b-b589-e52fe10c7d42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
