@@ -8,6 +8,13 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import org.openqa.selenium.WebElement
 import java.util.Random
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.openqa.selenium.By
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import org.openqa.selenium.WebDriver
+import com.kms.katalon.core.configuration.RunConfiguration
+
 
 class RegistrationPage {
 	static void fillForm(String email, String phone, String password) {
@@ -151,15 +158,47 @@ class RegistrationPage {
 		String currentUrl = WebUI.getUrl()
 		throw new AssertionError("URL actual no coincide con el patrón esperado. URL actual: " + currentUrl + ", Patrón esperado: " + expectedUrlPattern)
 	}
-	
-	static void enableAllFeature() {
-		
-		WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
-		
-		
-		WebUI.check(findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'))
-		WebUI.check(findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round'))
-		WebUI.check(findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'))
-		
-	}
+
+	  static void enableAllFeature() {
+        WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
+
+        List<TestObject> sliders = [
+            findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
+            findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'),
+            findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round')
+        ]
+
+        for (TestObject slider : sliders) {
+            if (!isSliderGreen(slider)) {
+                try {
+                    scrollIntoView(slider) // Desplazar el elemento al viewport
+                    WebUI.click(slider) // Usar `TestObject` para el clic
+                } catch (Exception e) {
+                    WebUI.comment("Error al habilitar el slider: " + e.getMessage())
+                }
+            } else {
+                WebUI.comment("El slider ya está en verde, no se realiza el clic.")
+            }
+        }
+    }
+
+    static boolean isSliderGreen(TestObject testObject) {
+        try {
+            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
+            String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
+            return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
+        } catch (Exception e) {
+            WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
+            return false
+        }
+    }
+
+    static void scrollIntoView(TestObject testObject) {
+        WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+        WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath')))
+        JavascriptExecutor js = (JavascriptExecutor) driver
+        js.executeScript('arguments[0].scrollIntoView(true);', element)
+    }
 }
+

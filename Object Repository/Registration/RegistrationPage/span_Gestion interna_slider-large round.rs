@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='bodyContainer']/roma-company-modules/div[2]/div/div/div/div/div/label/span</value>
+         <value>/html/body/roma-root/roma-admin/div/div[2]/div[2]/div/roma-company-modules/div[2]/div/div[1]/div/div/div[1]/label/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6c526537-7022-4013-a72f-744640bd342d</webElementGuid>
+      <webElementGuid>838c0ed9-8bf7-47fe-8733-391465842843</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>slider-large round</value>
-      <webElementGuid>0ba6656c-c480-4031-a0d9-62dafdfbc84f</webElementGuid>
+      <webElementGuid>645b6ae6-cd46-4f73-afb2-13b843ed62c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bodyContainer&quot;)/roma-company-modules[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;register_container wrapper-pro-feature-user is-user-available&quot;]/div[@class=&quot;form-functions&quot;]/div[@class=&quot;form-functions-card gestion-interna&quot;]/div[@class=&quot;module-card&quot;]/div[@class=&quot;module-content&quot;]/div[@class=&quot;module-content-option-title&quot;]/label[@class=&quot;switch-large custom-tooltip bottom&quot;]/span[@class=&quot;slider-large round&quot;]</value>
-      <webElementGuid>ce0220b1-d53b-47b1-8be4-473bbc703a28</webElementGuid>
+      <webElementGuid>4bfd90ba-a5b8-46ed-b5b4-14c372669a8c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bodyContainer']/roma-company-modules/div[2]/div/div/div/div/div/label/span</value>
-      <webElementGuid>52effb66-e255-47a1-9b80-03d21fca7b51</webElementGuid>
+      <webElementGuid>7aa33025-5a35-4e88-b483-ee53ff1abe02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/span</value>
-      <webElementGuid>f082fa1f-cb5b-463f-9a6b-32c6273aff3b</webElementGuid>
+      <webElementGuid>1c84d9a4-9347-4136-a0ea-d9afa35b5365</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

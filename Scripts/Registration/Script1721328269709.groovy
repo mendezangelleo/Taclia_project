@@ -6,6 +6,7 @@ import geolocation.Geolocation as Geolocation
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import keywords.SectorKeywords as SectorKeywords
 import config.TestConfig as TestConfig
+import pages.GeneralUse as GeneralUse
 
 try {
     // Abrir la aplicación y aceptar cookies
@@ -55,7 +56,10 @@ try {
 
     WebUI.comment('URL validada después del registro.')
 	
+	
 	RegistrationPage.enableAllFeature()
+	
+	
 	
 	return generatedEmail
 }
@@ -67,5 +71,5 @@ catch (Exception e) {
 // Lanzar la excepción para que el test falle
 finally { 
     // Cerrar la aplicación
-    //LoginPage.close()
+    //GeneralUse.close()
 }

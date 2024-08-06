@@ -1,12 +1,9 @@
-import pages.LoginPage as LoginPage
-import pages.GeneralUse as GeneralUse
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import pages.RegistrationPage as RegistrationPage
-import emailGenerator.groovy.EmailGenerator as EmailGenerator
-import geolocation.Geolocation as Geolocation
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import keywords.SectorKeywords as SectorKeywords
-import config.TestConfig as TestConfig
+import internal.GlobalVariable as GlobalVariable
+import pages.MyTracking as MyTracking
+import pages.GeneralUse as GeneralUse
+import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -20,20 +17,27 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
 try {
-	// Abrir la aplicación y aceptar cookies
-	LoginPage.open()
-	LoginPage.acceptCookies()
-	LoginPage.fillForm( TestConfig.email, TestConfig.password)
-	LoginPage.clickLogin()
-	LoginPage.validateUrlAfterLogin()
-} catch (Exception e) {
-	// Manejo de la excepción
-	e.printStackTrace()
-} finally {
-	GeneralUse.close()
+    MyTracking.navigateToTimeTracking()
+
+    MyTracking.navigateToMyTracking()
+
+    MyTracking.startAutomaticTracking()
+
+    MyTracking.waitForOneMinute()
+
+    MyTracking.stopAutomaticTracking()
+	
+	MyTracking.toastVisible()
+}
+catch (Exception e) {
+    e.printStackTrace()
+} 
+// Manejo de la excepción
+finally { 
+    GeneralUse.close()
 }
 

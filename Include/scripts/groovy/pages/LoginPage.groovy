@@ -38,7 +38,5 @@ class LoginPage {
 		expectedUrlPattern = '.*taclia.com.*'
 	}
 
-	static void close() {
-		WebUI.closeBrowser()
-	}
+	
 }

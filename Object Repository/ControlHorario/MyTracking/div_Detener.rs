@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Detener</name>
+   <tag></tag>
+   <elementGuidId>91669962-2b6b-4abb-a0ca-6a6315f0a5bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bodyContainer']/roma-clock-hour/div/div/div/div/div[2]/button/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.roma-button.pro-feature.user-feature.is-available.is-checkable.is-user-available.danger > div.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Detener&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d81e4820-06ea-47b3-b65b-4a366a0126ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>0dfbe39b-6884-41e2-a6ce-1ceb7038cc5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Detener </value>
+      <webElementGuid>6bf7185a-7c96-4289-8ab9-19af7c13f189</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bodyContainer&quot;)/roma-clock-hour[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;page-header&quot;]/div[@class=&quot;page-options&quot;]/div[@class=&quot;chronometer-container active-time-tracking&quot;]/button[@class=&quot;roma-button pro-feature user-feature is-available is-checkable is-user-available danger&quot;]/div[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>f526ab89-de54-4414-a735-80789f3433af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bodyContainer']/roma-clock-hour/div/div/div/div/div[2]/button/div</value>
+      <webElementGuid>50e26699-35c4-4dd4-a19c-ce6eec73c02f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fichando'])[1]/following::div[1]</value>
+      <webElementGuid>92b1290f-32e4-4552-8aed-bb75ba06684f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descargar'])[1]/following::div[3]</value>
+      <webElementGuid>8886ab50-5560-452c-bb1d-51df70358d95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Semanal'])[1]/preceding::div[1]</value>
+      <webElementGuid>e2b9f147-4552-4938-bea8-f7a0f03c0209</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mensual'])[1]/preceding::div[1]</value>
+      <webElementGuid>351a8585-b014-4a64-95b7-6e03f9105e27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Detener']/parent::*</value>
+      <webElementGuid>7e017b97-f14e-49d3-b59e-512b1bca238c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div[2]/button/div</value>
+      <webElementGuid>905fda19-b3ba-4c26-a6c4-37cd61e55aa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Detener ' or . = ' Detener ')]</value>
+      <webElementGuid>890e461f-2296-4185-8daa-6ade2d2dd150</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

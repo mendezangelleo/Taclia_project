@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='bodyContainer']/roma-company-modules/div[2]/div/div[3]/div/div/div/label/span</value>
+         <value>/html/body/roma-root/roma-admin/div/div[2]/div[2]/div/roma-company-modules/div[2]/div/div[3]/div/div/div[1]/label/span</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3ffbd16e-e921-4910-90b9-be1c173d4e43</webElementGuid>
+      <webElementGuid>508ee0cf-f0d3-413f-918e-07f87e11fc94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>slider-large round</value>
-      <webElementGuid>d7810cb5-2308-4a61-b281-419b3338771a</webElementGuid>
+      <webElementGuid>51652190-f8ed-4efc-af8f-38c42c481c5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;bodyContainer&quot;)/roma-company-modules[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;register_container wrapper-pro-feature-user is-user-available&quot;]/div[@class=&quot;form-functions&quot;]/div[@class=&quot;form-functions-card gastos&quot;]/div[@class=&quot;module-card&quot;]/div[@class=&quot;module-content&quot;]/div[@class=&quot;module-content-option-title&quot;]/label[@class=&quot;switch-large custom-tooltip bottom&quot;]/span[@class=&quot;slider-large round&quot;]</value>
-      <webElementGuid>3313106c-d697-40cb-abbf-c3beb85b3538</webElementGuid>
+      <webElementGuid>1c3b7a26-c342-4079-99ce-f58e23eb1484</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='bodyContainer']/roma-company-modules/div[2]/div/div[3]/div/div/div/label/span</value>
-      <webElementGuid>bc74d5a7-c2b7-4c1a-ab24-f9faaf56e218</webElementGuid>
+      <webElementGuid>57617964-b772-40e3-925d-ac7783ec6e6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/label/span</value>
-      <webElementGuid>f7db12ed-f1dd-40bc-92e2-794bd843798e</webElementGuid>
+      <webElementGuid>5f0df1c0-f167-4911-902a-e37d67fdf9f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

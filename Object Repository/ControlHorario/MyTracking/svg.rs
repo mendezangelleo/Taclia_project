@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>6d126a2c-2c00-4d10-8959-18106fd4b42e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Control horario'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-panel-title.mat-expansion-panel-header-title.ng-tns-c161-8 > mat-icon.mat-icon.notranslate.roma-icon.material-icons.arrow-icon.mat-icon-no-color > svg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Control horario Control horario&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>224bf5b2-a4b9-4b0a-b4b4-b1f9ddc728bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>0abff8ce-d0a5-4a5c-88c9-247abef83b39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>100%</value>
+      <webElementGuid>879ddf9a-6631-4ebd-9685-711d97380e87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 16 16</value>
+      <webElementGuid>035a9195-ff82-47f9-b6bc-3c3700d6824c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>12779d57-5b77-466d-a38c-8c7e889edb15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>1ac20831-7a4c-44b0-b3ef-4ca95faba1dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>preserveAspectRatio</name>
+      <type>Main</type>
+      <value>xMidYMid meet</value>
+      <webElementGuid>f80d277f-0c5f-4971-9fd2-32d49551d174</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5e516cd4-062b-40e7-b377-baff05f24b21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-expansion-panel-header-2&quot;)/span[@class=&quot;mat-content ng-tns-c161-8&quot;]/mat-panel-title[@class=&quot;mat-expansion-panel-header-title ng-tns-c161-8&quot;]/mat-icon[@class=&quot;mat-icon notranslate roma-icon material-icons arrow-icon mat-icon-no-color&quot;]/svg[1]</value>
+      <webElementGuid>b42131e8-b1d3-4ad5-ae41-b0e60378b520</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Control horario'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>8206473c-0e58-416d-8fe3-31d9d834d609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gestión interna'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>d5056988-1fc9-4599-a379-1119c97a09a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis fichajes'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>db3fd45f-a9d0-45a0-a917-fa35cc0cad95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis ausencias'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>b0f31e6b-7795-4360-9080-085d1eae46d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
