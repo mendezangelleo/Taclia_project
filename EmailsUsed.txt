@@ -75,6 +75,7 @@ amendez+iUJBEO3P163@taclia.com
 amendez+BFC5qAh0164@taclia.com
 amendez+B2EhNivP165@taclia.com
 amendez+wePYceit166@taclia.com
+<<<<<<< HEAD
 amendez+yrjAzVvf167@taclia.com
 amendez+nMVZ2fPy168@taclia.com
 amendez+fkqzDhSf169@taclia.com
@@ -83,3 +84,9 @@ amendez+rDbtolfX171@taclia.com
 amendez+yVSEYEnV172@taclia.com
 amendez+BqaFDwLh173@taclia.com
 amendez+uTfX7aj4174@taclia.com
+=======
+amendez+lQoVHCCy167@taclia.com
+amendez+2bYtKyco168@taclia.com
+amendez+pNWDjlpQ169@taclia.com
+amendez+K1gHN2ui170@taclia.com
+>>>>>>> 05844e54010893203ec8d087cb8589a2a0c97e2c
