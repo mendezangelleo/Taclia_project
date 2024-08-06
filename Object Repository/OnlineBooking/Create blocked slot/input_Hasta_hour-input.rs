@@ -7,15 +7,13 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@id='hour-input'])[18]</value>
+         <value>(//input[@id='hour-input'])[12]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bf31f64b-4c66-4c41-b738-ceb3f657a80b</webElementGuid>
+      <webElementGuid>8082a2be-0d63-4863-b6dc-738fbc199d9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c2c70a62-abc3-4440-a099-1f4f682d8af4</webElementGuid>
+      <webElementGuid>b11ebd79-573f-4c7d-b0c7-8b417215e0d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +47,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>--:--</value>
-      <webElementGuid>c5f30351-3c44-4a07-8bf1-3fae87107972</webElementGuid>
+      <webElementGuid>61d8b2fc-0871-4f91-aaa7-8336c35f7592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>hour-input</value>
-      <webElementGuid>b785a10b-1169-4a60-a688-cd3a1d64780f</webElementGuid>
+      <webElementGuid>b6ad9776-b5d8-4a4d-8ff8-9886bfe56c2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +63,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>hour-input</value>
-      <webElementGuid>a2f4564c-4036-4a89-a75e-840b54abfe2b</webElementGuid>
+      <webElementGuid>0902be9d-b586-4e04-b9a5-335afc3745b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +71,7 @@
       <name>class</name>
       <type>Main</type>
       <value>font-regular pr-4 py-3 bg-white text-sm resize-none rounded-lg border !ring-transparent !outline-none placeholder:text-[#8C9DD2] w-full h-11 !text-center !w-[68px] h-10 md:!h-10 !pl-3 !pr-3 !py-1 md:!w-24 md:px-6 md:py-2  text-start border-primary-100</value>
-      <webElementGuid>efe0e045-8fd6-40cb-8540-c7da48131b61</webElementGuid>
+      <webElementGuid>26b11216-a71b-431f-9866-b5d3b9dc8f9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;:rc:&quot;)/div[@id=&quot;block-schedule-modal&quot;]/div[@id=&quot;block-schedule-modal&quot;]/div[@class=&quot;relative md:rounded-3xl rounded-none bg-white&quot;]/div[@class=&quot;md:px-10 md:pt-6 md:pb-8 px-6 py-4 h-screen md:h-auto&quot;]/div[@class=&quot;flex-1 overflow-visible p-0 w-full&quot;]/form[1]/div[@class=&quot;w-full flex md:flex-row flex-col gap-4 mt-7&quot;]/div[@class=&quot;md:w-2/5 w-full flex flex-col gap-4&quot;]/div[@class=&quot;flex flex-row gap-4 -mb-3 w-full relative mb-5&quot;]/div[@class=&quot;w-1/2 flex flex-col&quot;]/div[1]/div[@class=&quot;relative&quot;]/input[@id=&quot;hour-input&quot;]</value>
-      <webElementGuid>7747a3e8-9854-4473-aa83-01b9ab397b5c</webElementGuid>
+      <webElementGuid>91c8d737-a66d-42d5-bfa4-291134d8485c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@id='hour-input'])[18]</value>
-      <webElementGuid>6be3b093-03ac-433f-a445-70246913883f</webElementGuid>
+      <webElementGuid>c11a7274-a720-4406-a5cc-25dc1698110d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='block-schedule-modal']/div/div/div[2]/form/div[2]/div[2]/div/div[2]/div/div[2]/input</value>
-      <webElementGuid>12dcdb95-f915-4b7b-beca-b343f164569a</webElementGuid>
+      <webElementGuid>e037157d-7d65-4bc1-b5f0-f6477443544d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/input</value>
-      <webElementGuid>b397218f-27fc-4523-b80a-27952a1c2ef5</webElementGuid>
+      <webElementGuid>86ac2066-3b42-4c27-8cb0-1d1359a3a158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = '--:--' and @id = 'hour-input']</value>
-      <webElementGuid>f22bce59-5d71-4b14-8d05-1b7e589e42fc</webElementGuid>
+      <webElementGuid>50cf14bd-4108-4453-a50b-510033b5a081</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

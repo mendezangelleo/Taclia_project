@@ -26,19 +26,17 @@ int randomNumber = Math.random() * 100000
 
 String reason = 'test automation' + randomNumber
 
-String email = WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Online_Booking/Onboarding_OBP_published'), [ :], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Online_Booking/Onboarding_OBP_NoPublished'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/button_Horarios'))
 
-WebUI.click(findTestObject('Object Repository/Online booking/Create blocked slot/button_Horarios'))
+WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/span_Aadir bloqueo'))
 
-WebUI.click(findTestObject('Object Repository/Online booking/Create blocked slot/span_Aadir bloqueo'))
+WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/span_Guardar'))
 
-WebUI.click(findTestObject('Object Repository/Online booking/Create blocked slot/span_Guardar'))
+WebUI.setText(findTestObject('Object Repository/OnlineBooking/Create blocked slot/input_Razn_reason'), reason)
 
-WebUI.setText(findTestObject('Object Repository/Online booking/Create blocked slot/input_Razn_reason'), reason)
-
-WebUI.click(findTestObject('Object Repository/Online booking/Create blocked slot/input_Fecha_datepicker-2'))
+WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/input_Fecha_datepicker-2'))
 
 TestObject dayElementsObject = new TestObject('DayElements')
 
@@ -56,8 +54,6 @@ for (int i = 0; i < elements.size(); i++) {
     }
 }
 
-WebUI.che
-
 indexOfElementWithTextWhite = (indexOfElementWithTextWhite + 2)
 
 TestObject dayObject = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//*[@id="block-schedule-modal"]/div/div/div[2]/form/div[2]/div[1]/div/div/div/div[2]/div/div[2]/div[2]/button[' + 
@@ -65,11 +61,11 @@ TestObject dayObject = new TestObject().addProperty('xpath', ConditionType.EQUAL
 
 WebUI.click(dayObject)
 
-WebUI.setText(findTestObject('Object Repository/Online booking/Create blocked slot/input_Desde_hour-input'), '08:00')
+WebUI.setText(findTestObject('Object Repository/OnlineBooking/Create blocked slot/input_Desde_hour-input'), '08:00')
 
-WebUI.setText(findTestObject('Object Repository/Online booking/Create blocked slot/input_Hasta_hour-input'), '11:00')
+WebUI.setText(findTestObject('Object Repository/OnlineBooking/Create blocked slot/input_Hasta_hour-input'), '11:00')
 
-WebUI.click(findTestObject('Object Repository/Online booking/Create blocked slot/span_Guardar'))
+WebUI.click(findTestObject('Object Repository/OnlineBooking/Create blocked slot/span_Guardar'))
 
 WebUI.closeBrowser()
 
