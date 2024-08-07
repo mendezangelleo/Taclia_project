@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Aadir</name>
+   <tag></tag>
+   <elementGuidId>e2b84499-cfd9-4de8-8efc-9db1c72d2857</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bodyContainer']/roma-admin-clock-hour/div/div/div/button[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.roma-button.add-button-3.mobile-hidden.user-feature.is-user-available.is-checkable.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Añadir&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>faa1276a-d8fd-4487-966c-e68276dd1559</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>roma-button add-button-3 mobile-hidden user-feature is-user-available is-checkable ng-star-inserted</value>
+      <webElementGuid>c46ac670-2ce4-4656-8c94-11ecad48147e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Añadir </value>
+      <webElementGuid>63baa7a0-69f1-489b-832b-e9a915b7ec45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bodyContainer&quot;)/roma-admin-clock-hour[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header__title&quot;]/button[@class=&quot;roma-button add-button-3 mobile-hidden user-feature is-user-available is-checkable ng-star-inserted&quot;]</value>
+      <webElementGuid>4f859d7b-5b5e-4984-9f39-cd66f6f2745a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bodyContainer']/roma-admin-clock-hour/div/div/div/button[3]</value>
+      <webElementGuid>6a6a9947-5ac8-45e0-b6af-f56ca52e192a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descargar'])[1]/following::button[1]</value>
+      <webElementGuid>546e34de-49d3-4c04-beba-0e768b0d1ff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crear usuario'])[1]/following::button[2]</value>
+      <webElementGuid>0076679a-f1a4-4a51-8672-43ddf49714c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrar'])[1]/preceding::button[1]</value>
+      <webElementGuid>c17de335-ac80-4f11-be17-621af631620e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Añadir']/parent::*</value>
+      <webElementGuid>9a9c4f6f-47f3-47c4-831b-0b86dbe021be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//roma-admin-clock-hour/div/div/div/button[3]</value>
+      <webElementGuid>94dcc27e-5e23-4c6e-a37f-4f7b324a38b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Añadir ' or . = ' Añadir ')]</value>
+      <webElementGuid>8f6574ae-1205-4705-8302-380250874ff0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

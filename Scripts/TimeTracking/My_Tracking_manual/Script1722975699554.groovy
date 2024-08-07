@@ -16,23 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import pages.MyTracking as MyTracking
+import pages.Tracking as Tracking
 import pages.GeneralUse as GeneralUse
 
 WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
 try {
-    MyTracking.navigateToTimeTracking()
+    Tracking.navigateToTimeTracking()
 
-    MyTracking.navigateToMyTracking()
+    Tracking.navigateToMyTracking()
 
-    MyTracking.startManualTracking()
+    Tracking.startManualTracking()
 
-    MyTracking.validateDate()
+    Tracking.validateDate()
 
-    MyTracking.setStartandEndDate()
+    Tracking.setStartandEndDate()
 
-    MyTracking.saveManualTracking()
+    Tracking.saveManualTracking()
 
 }
 catch (Exception e) {

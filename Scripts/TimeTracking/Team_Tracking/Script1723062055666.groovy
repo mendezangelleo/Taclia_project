@@ -21,24 +21,25 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
 try {
-    Tracking.navigateToTimeTracking()
+	Tracking.navigateToTimeTracking()
 
-    Tracking.navigateToMyTracking()
+	Tracking.navigateToTeamTracking()
 
-    Tracking.startAutomaticTracking()
+	Tracking.addTeamTracking()
 
-    Tracking.waitForOneMinute()
+	Tracking.selectUser()
 
-    Tracking.stopAutomaticTracking()
+	Tracking.selectCalendar()
 	
-	Tracking.toastVisible()
+	Tracking.setStartandEndDate()
+	
+	Tracking.saveTeamTracking()
 }
 catch (Exception e) {
-    e.printStackTrace()
-    throw new AssertionError('Se produjo un error durante la ejecución del test: ' + e.getMessage())
-} 
-// Manejo de la excepción
-finally { 
-    GeneralUse.close()
+	e.printStackTrace()
+	throw new AssertionError('Se produjo un error durante la ejecución del test: ' + e.getMessage())
 }
-
+// Manejo de la excepción
+finally {
+	GeneralUse.close()
+}

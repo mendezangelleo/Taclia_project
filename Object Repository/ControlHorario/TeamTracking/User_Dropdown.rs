@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>User_Dropdown</name>
+   <tag></tag>
+   <elementGuidId>4efd3898-d4f0-4c54-a7ea-f3f588696495</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[8]/div[2]/div/mat-dialog-container/roma-add-admin-clock-hour/roma-modal-template/div/div/div[2]/form/div[1]/div[1]/div/rm-select/div[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

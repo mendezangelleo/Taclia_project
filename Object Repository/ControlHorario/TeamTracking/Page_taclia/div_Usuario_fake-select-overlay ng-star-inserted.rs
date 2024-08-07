@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Usuario_fake-select-overlay ng-star-inserted</name>
+   <tag></tag>
+   <elementGuidId>4f0f1c96-01a9-4ae8-b804-7c720f00f9f2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//rm-select[@id='idOwner']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.fake-select-overlay.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.fake-select-overlay</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>917d3cd4-f34c-4dcd-9f0e-e25790a6db78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fake-select-overlay ng-star-inserted</value>
+      <webElementGuid>07c3b9c5-70ad-43c7-b0ca-707b55e34c7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;idOwner&quot;)/div[1]/div[@class=&quot;fake-select-overlay ng-star-inserted&quot;]</value>
+      <webElementGuid>586a8c67-72cb-4722-8359-72427324541c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//rm-select[@id='idOwner']/div/div</value>
+      <webElementGuid>d4af5ec4-f9af-4011-b357-621877995d6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//rm-select/div/div</value>
+      <webElementGuid>39048219-2fa7-46cc-a33d-ad424124f8a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
