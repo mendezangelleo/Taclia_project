@@ -34,6 +34,6 @@ try {
 	// Manejo de la excepción
 	e.printStackTrace()
 } finally {
-	GeneralUse.close()
+	//GeneralUse.close()
 }
 
