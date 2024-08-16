@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>jobs_feature</name>
+   <name>Save_modalCustomer</name>
    <tag></tag>
-   <elementGuidId>5f75b37e-1566-4d6f-bda6-450b36abddf5</elementGuidId>
+   <elementGuidId>d65d81ae-a388-4730-82c3-75168aa1d387</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[4]/label</value>
+         <value>//button[contains(@class, 'primary') and contains(@class, 'small') and (normalize-space(text())='Guardar' or normalize-space(text())='Save')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

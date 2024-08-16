@@ -85,7 +85,7 @@ class RegistrationPage {
 				WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/RegistrationPage/step2_screen/jobs_feature'), 30)
 				break
 			case 3:
-				WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/RegistrationPage/step2_screen/sales_feature'), 30)
+				WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/RegistrationPage/step2_screen/OB_feature'), 30)
 				break
 			case 4:
 				WebUI.verifyElementPresent(findTestObject('Object Repository/Registration/RegistrationPage/step2_screen/task_feature'), 30)
@@ -115,7 +115,7 @@ class RegistrationPage {
 				expectedUrlPattern = '.*admin/deals.*'
 				break
 			case 3:
-				expectedUrlPattern = '.*sales\\?type=BDG.*'
+				expectedUrlPattern = '.*/admin/online-booking.*'
 				break
 			case 4:
 				expectedUrlPattern = '.*activities.*'
@@ -142,60 +142,60 @@ class RegistrationPage {
 	}
 
 	static void enableAllFeature() {
-        WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
+		WebUI.click(findTestObject('Object Repository/Registration/RegistrationPage/a_Funcionalidades'))
 
-        List<TestObject> sliders = [
-            findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
-            findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'),
-            findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round'),
-            findTestObject('Object Repository/Registration/RegistrationPage/span_controlHorario')
-        ]
+		List<TestObject> sliders = [
+			findTestObject('Object Repository/Registration/RegistrationPage/span_Gastos_slider-large round'),
+			findTestObject('Object Repository/Registration/RegistrationPage/span_Gestion interna_slider-large round'),
+			findTestObject('Object Repository/Registration/RegistrationPage/span_Ventas_slider-large round'),
+			findTestObject('Object Repository/Registration/RegistrationPage/span_controlHorario')
+		]
 
-        for (TestObject slider : sliders) {
-            if (isValidXpath(slider) && !isSliderGreen(slider)) {
-                try {
-                    scrollIntoView(slider) // Desplazar el elemento al viewport
-                    WebUI.click(slider) // Usar `TestObject` para el clic
-                } catch (Exception e) {
-                    WebUI.comment("Error al habilitar el slider: " + e.getMessage())
-                }
-            } else {
-                WebUI.comment("El slider ya está en verde, no se realiza el clic.")
-            }
-        }
-    }
+		for (TestObject slider : sliders) {
+			if (isValidXpath(slider) && !isSliderGreen(slider)) {
+				try {
+					scrollIntoView(slider) // Desplazar el elemento al viewport
+					WebUI.click(slider) // Usar `TestObject` para el clic
+				} catch (Exception e) {
+					WebUI.comment("Error al habilitar el slider: " + e.getMessage())
+				}
+			} else {
+				WebUI.comment("El slider ya está en verde, no se realiza el clic.")
+			}
+		}
+	}
 
-    static boolean isSliderGreen(TestObject testObject) {
-        try {
-            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
-            String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
-            return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
-        } catch (Exception e) {
-            WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
-            return false
-        }
-    }
+	static boolean isSliderGreen(TestObject testObject) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+			WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
+			String color = WebUI.executeJavaScript('return window.getComputedStyle(arguments[0]).backgroundColor;', Arrays.asList(element))
+			return color.equals('rgb(54, 191, 106)') // Color verde en formato RGB
+		} catch (Exception e) {
+			WebUI.comment("Error al verificar el color del slider: " + e.getMessage())
+			return false
+		}
+	}
 
-    static void scrollIntoView(TestObject testObject) {
-        try {
-            WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
-            WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
-            JavascriptExecutor js = (JavascriptExecutor) driver
-            js.executeScript('arguments[0].scrollIntoView(true);', element)
-        } catch (Exception e) {
-            WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
-        }
-    }
+	static void scrollIntoView(TestObject testObject) {
+		try {
+			WebDriver driver = DriverFactory.getWebDriver() // Obtiene el WebDriver actual
+			WebElement element = driver.findElement(By.xpath(testObject.findPropertyValue('xpath').toString()))
+			JavascriptExecutor js = (JavascriptExecutor) driver
+			js.executeScript('arguments[0].scrollIntoView(true);', element)
+		} catch (Exception e) {
+			WebUI.comment("Error al desplazar el elemento al viewport: " + e.getMessage())
+		}
+	}
 
-    static boolean isValidXpath(TestObject testObject) {
-        String xpath = testObject.findPropertyValue('xpath').toString()
-        if (xpath == null || xpath.isEmpty()) {
-            WebUI.comment("XPath no es válido: " + xpath)
-            return false
-        }
-        return true
-    }
+	static boolean isValidXpath(TestObject testObject) {
+		String xpath = testObject.findPropertyValue('xpath').toString()
+		if (xpath == null || xpath.isEmpty()) {
+			WebUI.comment("XPath no es válido: " + xpath)
+			return false
+		}
+		return true
+	}
 }
 
 

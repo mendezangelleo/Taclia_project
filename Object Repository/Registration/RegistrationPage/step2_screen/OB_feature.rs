@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>jobs_feature</name>
+   <name>OB_feature</name>
    <tag></tag>
-   <elementGuidId>5f75b37e-1566-4d6f-bda6-450b36abddf5</elementGuidId>
+   <elementGuidId>66e4f7a1-8c63-4498-b9bf-18e104c7cd6b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[4]/label</value>
+         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[3]/label</value>
       </entry>
       <entry>
          <key>BASIC</key>

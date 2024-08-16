@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>jobs_feature</name>
+   <name>modal_createSerialNumber</name>
    <tag></tag>
-   <elementGuidId>5f75b37e-1566-4d6f-bda6-450b36abddf5</elementGuidId>
+   <elementGuidId>d82f76d7-91c1-4621-978b-c1318d2db609</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[4]/label</value>
+         <value>/html/body/div[8]/div[2]/div/mat-dialog-container/roma-create-budget/div/section[2]/form/div[1]/div[1]/roma-budget-header/fieldset/div[2]/div[1]/rm-select-register/div[2]/div/div[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

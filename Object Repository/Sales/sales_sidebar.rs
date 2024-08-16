@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>jobs_feature</name>
+   <name>sales_sidebar</name>
    <tag></tag>
-   <elementGuidId>5f75b37e-1566-4d6f-bda6-450b36abddf5</elementGuidId>
+   <elementGuidId>0f26f358-722a-4577-8691-14323f357a56</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[4]/label</value>
+         <value>/html/body/roma-root/roma-admin/div/div[1]/roma-sidebar/div[1]/div[2]/div[3]/mat-expansion-panel[1]/mat-expansion-panel-header/span/mat-panel-title</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

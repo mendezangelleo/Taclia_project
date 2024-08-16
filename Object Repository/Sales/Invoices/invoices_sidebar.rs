@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>sales_feature</name>
+   <name>invoices_sidebar</name>
    <tag></tag>
-   <elementGuidId>66e4f7a1-8c63-4498-b9bf-18e104c7cd6b</elementGuidId>
+   <elementGuidId>970f0a47-8755-481d-b82b-8b774e81ba48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;cdk-accordion-child-0&quot;]/div/div[2]/a[4]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[4]/label</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_invoice_withoutSerialNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26fbb884-0c67-4ab5-bc88-6dd0e2653577</testCaseGuid>
+</TestCaseEntity>

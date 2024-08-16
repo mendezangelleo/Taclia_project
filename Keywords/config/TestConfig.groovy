@@ -4,7 +4,10 @@ class TestConfig {
 	static String url = 'https://app.taclia.com/auth/login'
 	static String phone = '1121592980'
 	static String password = 'tA7cF5yHje7Ja7iPgE5qtQ=='
-	static String email = 'amendez+booking37@taclia.com'
+	static String email = 'test_angel40@taclia.com'
 	static String businessName = 'name'
 	static String serviceName = 'hola'
+	static String name = "Name"
+	static String SerialNumberName = 'Serial'
+	static String Prefix = 'Auto'
 }

@@ -27,16 +27,14 @@ class LoginPage {
 	static void clickLogin() {
 		WebUI.click(findTestObject('Object Repository/Registration/LoginPage/button_Iniciar sesin'))
 	}
-	
+
 	static void validateUrlAfterLogin() {
 		// Definir un tiempo máximo de espera
 		int timeout = 30
 		int interval = 2
 		int elapsedTime = 0
-		
+
 		String expectedUrlPattern = ''
 		expectedUrlPattern = '.*taclia.com.*'
 	}
-
-	
 }

@@ -12,6 +12,9 @@ class GeneralUse {
 		WebUI.closeBrowser()
 	}
 
+	static void openSales() {
+		WebUI.click(findTestObject('Object Repository/Sales/sales_sidebar'))
+	}
 	static void clickOnDayElementWithTextWhite() {
 		TestObject dayElementsObject = new TestObject('DayElements')
 		dayElementsObject.addProperty('xpath', ConditionType.EQUALS, '//*[contains(@class, \'w-9\') and contains(@class, \'h-9\') and contains(@class, \'text-xs\') and contains(@class, \'text-center\') and contains(@class, \'font-regular\') and contains(@class, \'rounded-full\') and contains(@class, \'flex\') and contains(@class, \'items-center\') and contains(@class, \'justify-center\') and contains(@class, \'hover:bg-primary-100\')]')
@@ -40,5 +43,4 @@ class GeneralUse {
 
 		WebUI.click(dayObject)
 	}
-	
 }

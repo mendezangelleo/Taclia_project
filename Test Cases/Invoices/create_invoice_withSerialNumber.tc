@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create_invoice_withSerialNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a982ff7-4f54-4ba3-be89-2e179bae2363</testCaseGuid>
+</TestCaseEntity>
