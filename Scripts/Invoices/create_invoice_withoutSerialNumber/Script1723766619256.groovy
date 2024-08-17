@@ -1,8 +1,7 @@
-import pages.LoginPage as LoginPage
-import pages.GeneralUse as GeneralUse
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import pages.RegistrationPage as RegistrationPage
 import pages.Invoices as Invoices
+import pages.GeneralUse as GeneralUse
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import keywords.SectorKeywords as SectorKeywords
 import config.TestConfig as TestConfig
@@ -20,9 +19,8 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
 try {
     GeneralUse.openSales()
@@ -32,16 +30,19 @@ try {
     Invoices.openModalCreate()
 
     Invoices.createCustomer()
+	
+    Invoices.selectSerialNumberExisting()
 
     Invoices.saveInvoice()
-	
-	Invoices.validateUrlPreview()
+
+    Invoices.validatePreview()
 }
 catch (Exception e) {
     e.printStackTrace()
-	WebUI.markFailed('Se produjo un error durante la ejecución del Test Case: ' + e.message)
+
+    WebUI.markFailed('Se produjo un error durante la ejecución del Test Case: ' + e.message)
 } 
 finally { 
-    GeneralUse.close()
+    //GeneralUse.close()
 }
 

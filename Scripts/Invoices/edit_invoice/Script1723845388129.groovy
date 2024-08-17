@@ -22,28 +22,22 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
 try {
-	GeneralUse.openSales()
+    Invoices.editInvoice()
 
-	Invoices.openInvoices()
+    Invoices.addConcepts()
 
-	Invoices.openModalCreate()
+    Invoices.saveInvoice()
 
-	Invoices.createCustomer()
-	
-	Invoices.createSerialNumber()
-
-	Invoices.saveInvoice()
-	
-	Invoices.validatePreview()
+    Invoices.validatePreview()
 }
 catch (Exception e) {
-	e.printStackTrace()
-	WebUI.markFailed('Se produjo un error durante la ejecución del Test Case: ' + e.message)
-}
-finally {
-	//GeneralUse.close()
+    e.printStackTrace()
+
+    WebUI.markFailed('Se produjo un error durante la ejecución del Test Case: ' + e.message)
+} 
+finally { 
+    GeneralUse.close()
 }
 

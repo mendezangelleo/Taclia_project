@@ -27,9 +27,9 @@ try {
 
     OnlineBooking.navigateToOnlineBooking()
 
-    OnlineBooking.createBookingPage(TestConfig.businessName)
+    OnlineBooking.createBookingPage()
 
-    OnlineBooking.createProductOrService(TestConfig.serviceName)
+    OnlineBooking.createProductOrService()
 
     OnlineBooking.saveAndNoPublishPage()
 }

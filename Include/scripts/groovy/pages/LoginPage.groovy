@@ -19,9 +19,9 @@ class LoginPage {
 		WebUI.click(findTestObject('Object Repository/Registration/LoginPage/a_Empieza ahora'))
 	}
 
-	static void fillForm(String email, String password) {
-		WebUI.setText(findTestObject('Object Repository/Registration/LoginPage/input_Correo electrnico_email'), email)
-		WebUI.setEncryptedText(findTestObject('Object Repository/Registration/LoginPage/input_Contrasea_password'), password)
+	static void fillForm() {
+		WebUI.setText(findTestObject('Object Repository/Registration/LoginPage/input_Correo electrnico_email'), TestConfig.email)
+		WebUI.setEncryptedText(findTestObject('Object Repository/Registration/LoginPage/input_Contrasea_password'), TestConfig.password)
 	}
 
 	static void clickLogin() {

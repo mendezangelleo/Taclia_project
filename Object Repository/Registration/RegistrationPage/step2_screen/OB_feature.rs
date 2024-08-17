@@ -6,11 +6,11 @@
    <elementGuidId>66e4f7a1-8c63-4498-b9bf-18e104c7cd6b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[3]/label</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>/html/body/roma-root/roma-new-register/div/div[2]/div/div/form/div[2]/div[3]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

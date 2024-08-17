@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>invoices_sidebar</name>
+   <name>edit_button</name>
    <tag></tag>
-   <elementGuidId>970f0a47-8755-481d-b82b-8b774e81ba48</elementGuidId>
+   <elementGuidId>8e1b7d75-f156-44be-9d33-753817e5f6a3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@href='/admin/budgets?type=BILL' and (contains(., 'Invoices') or contains(., 'Facturas'))]</value>
+         <value>//button[@class='tertiary xsmall' and (contains(., 'Editar') or contains(., 'Edit'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

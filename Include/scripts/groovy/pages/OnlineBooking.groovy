@@ -4,6 +4,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.util.Random
+import config.TestConfig
 
 class OnlineBooking {
 
@@ -11,9 +12,9 @@ class OnlineBooking {
 		WebUI.click(findTestObject('Object Repository/OnlineBooking/span_Reservas Online'))
 	}
 
-	static void createBookingPage(String businessName) {
+	static void createBookingPage() {
 		WebUI.click(findTestObject('Object Repository/OnlineBooking/span_Crear pgina de reservas'))
-		WebUI.setText(findTestObject('Object Repository/OnlineBooking/Step_1/input_Nombre de tu negocio_name'), businessName)
+		WebUI.setText(findTestObject('Object Repository/OnlineBooking/Step_1/input_Nombre de tu negocio_name'), TestConfig.name)
 		String randomUrl = generateRandomUrl(8) // Genera una URL aleatoria con 8 caracteres
 		WebUI.setText(findTestObject('Object Repository/OnlineBooking/Step_1/input_booking.taclia.com_url'), randomUrl)
 		WebUI.waitForElementVisible(findTestObject('Object Repository/OnlineBooking/Step_2/span_Siguiente'), 10)
@@ -23,9 +24,9 @@ class OnlineBooking {
 		WebUI.click(findTestObject('Object Repository/OnlineBooking/Step_2/span_Siguiente'))
 	}
 
-	static void createProductOrService(String serviceName) {
+	static void createProductOrService() {
 		WebUI.click(findTestObject('Object Repository/OnlineBooking/Step_3/div_Crear productoservicio'))
-		WebUI.setText(findTestObject('Object Repository/OnlineBooking/Step_3/service_name'), serviceName)
+		WebUI.setText(findTestObject('Object Repository/OnlineBooking/Step_3/service_name'), TestConfig.name)
 		WebUI.click(findTestObject('Object Repository/OnlineBooking/Step_3/button_Guardar'))
 	}
 
