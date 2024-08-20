@@ -6,12 +6,12 @@
    <elementGuidId>032d119d-efbb-4947-b615-dacaa7bbee3d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.footer-button.roma-button.save-btn.user-feature.is-user-available.is-checkable</value>
+         <key>XPATH</key>
+         <value>//roma-create-final-v2/div[2]/div[2]/roma-final-wrapper-detail/div[1]/div[2]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[16]</value>
+         <key>CSS</key>
+         <value>button.footer-button.roma-button.save-btn.user-feature.is-user-available.is-checkable</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1616130c-801b-4c23-a57d-deb25f90f818</webElementGuid>
+      <webElementGuid>12eec3ea-2e95-4c50-af70-be9cf4fd2387</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c7964b17-1964-48f8-8587-c7def5b20f83</webElementGuid>
+      <webElementGuid>493f7288-b60e-4dca-8648-7d3b506931d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b52ef3b5-7e33-430e-9bcf-e71fcc5b77f5</webElementGuid>
+      <webElementGuid>79590d92-0ed4-4739-b3fa-45eccb9035d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>footer-button roma-button save-btn user-feature is-user-available is-checkable</value>
-      <webElementGuid>c4e8594e-96bd-4803-afa5-6772025ed38b</webElementGuid>
+      <webElementGuid>d051b373-3158-4963-a0a3-83606197de4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Guardar </value>
-      <webElementGuid>bbc66cf9-a9c4-47e2-9587-1c3673adefd0</webElementGuid>
+      <webElementGuid>4a2b5d59-987c-4b60-ac51-3fd859d0e1a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-dialog-0&quot;)/roma-create-final-v2[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;modal__body safe-area-padding&quot;]/div[@class=&quot;modal__body__content&quot;]/roma-final-wrapper-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper__body&quot;]/div[@class=&quot;wrapper__body__footer&quot;]/button[@class=&quot;footer-button roma-button save-btn user-feature is-user-available is-checkable&quot;]</value>
-      <webElementGuid>6998d6d5-5213-4305-bf6a-5f4fc1f3eb16</webElementGuid>
+      <webElementGuid>1aaa5c88-50e0-4b62-acad-2385f5db9669</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[16]</value>
-      <webElementGuid>3c9733ce-8bb6-4eb1-8066-979c8f837ab6</webElementGuid>
+      <webElementGuid>588338c7-b82f-4146-a449-5d0042aeeb52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-dialog-container[@id='mat-dialog-0']/roma-create-final-v2/div[2]/div[2]/roma-final-wrapper-detail/div/div[2]/button</value>
-      <webElementGuid>e7cdac58-9d05-4715-9e60-cc67c58f8e68</webElementGuid>
+      <webElementGuid>85dbeb27-1122-43ac-a23d-530b8f9bb85d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ir a campos personalizados'])[1]/following::button[1]</value>
-      <webElementGuid>55584930-d4ea-4f49-b72c-f4f0fdb49039</webElementGuid>
+      <webElementGuid>b87a3850-f74c-4379-92a9-6349cc92d3ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='campos personalizados'])[1]/following::button[1]</value>
-      <webElementGuid>f44b9b12-c6f1-425f-b51a-25e797f0081d</webElementGuid>
+      <webElementGuid>20084858-400a-4a82-942a-c3768db7d8dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Archivos adjuntos'])[1]/preceding::button[1]</value>
-      <webElementGuid>28dd5350-95fc-4509-8315-a7885dd5fcea</webElementGuid>
+      <webElementGuid>67685383-73c4-494d-842f-58566ce42a56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tamaño máximo de archivo 10 MB'])[1]/preceding::button[1]</value>
-      <webElementGuid>d0a902e1-f57f-465a-9e88-ce10f2598890</webElementGuid>
+      <webElementGuid>b8b23d79-cf05-4837-b9c6-fa27284d8366</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
-      <webElementGuid>1b25e5c2-65fc-4e27-813c-75d500dc7399</webElementGuid>
+      <webElementGuid>023f55e6-516b-4a90-a758-240f1cfa8b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//roma-final-wrapper-detail/div/div[2]/button</value>
-      <webElementGuid>1aa5b205-7721-4942-a7a3-7c16e6947ba2</webElementGuid>
+      <webElementGuid>6e7ffdb8-366c-4987-a4b8-fc419a03e690</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Guardar ' or . = ' Guardar ')]</value>
-      <webElementGuid>423f4490-b85e-46cc-964c-bcb474997dc4</webElementGuid>
+      <webElementGuid>dc05415f-fdb4-4fb4-89c2-5ecfaea2c3f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

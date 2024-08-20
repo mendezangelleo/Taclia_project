@@ -17,10 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-boolean calledByTest = (boolean) calledByTest 
+// Inicializar la variable calledByTest si no está definida
+boolean calledByTest = (boolean) (this.binding.hasVariable('calledByTest') ? calledByTest : false)
 
+// Llamada a otro caso de prueba
 WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
+// Interacciones con la UI
 WebUI.click(findTestObject('Object Repository/Customers/CreateCustomer/a_Clientes'))
 WebUI.click(findTestObject('Object Repository/Customers/CreateCustomer/button_Aadir'))
 WebUI.setText(findTestObject('Object Repository/Customers/CreateCustomer/input__form-control md-input ng-untouched n_bf7bea'), 
@@ -34,8 +37,7 @@ WebUI.setText(findTestObject('Object Repository/Customers/CreateCustomer/input_C
 WebUI.setText(findTestObject('Object Repository/Customers/CreateCustomer/input_Telfono_tel'), '123123123')
 WebUI.click(findTestObject('Object Repository/Customers/CreateCustomer/button_Guardar'))
 
+// Cerrar el navegador solo si el test no fue llamado por otro test
 if (!calledByTest) {
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 }
-
-
