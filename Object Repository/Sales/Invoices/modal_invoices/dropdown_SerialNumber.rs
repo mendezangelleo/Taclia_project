@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_name</name>
+   <name>dropdown_SerialNumber</name>
    <tag></tag>
-   <elementGuidId>6de9884d-e507-47f9-a47d-d36d56814608</elementGuidId>
+   <elementGuidId>18d8232e-65bf-4929-923a-87c1fc2c6c9b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//roma-create-budget/div/section[2]/form/div[1]/div[1]/roma-budget-header/fieldset/div[2]/div[1]/rm-select-register/div[1]/div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/section/roma-budget-category/section/fieldset/div[1]/div[1]/div/rm-select-register/div[2]/div/div[1]/input</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

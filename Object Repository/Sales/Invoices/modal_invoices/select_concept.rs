@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>modal_createCustomer</name>
+   <name>select_concept</name>
    <tag></tag>
-   <elementGuidId>d57fee0e-0be0-435d-8e2d-f37d1ad9b3fc</elementGuidId>
+   <elementGuidId>3dc48a71-983c-4f85-9301-d4b251586bc9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[text()[normalize-space()='Crear cliente']]</value>
+         <value>//div/section/roma-budget-category/section/fieldset/div[1]/div[1]/div/rm-select-register/div[2]/div/div[3]/div[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

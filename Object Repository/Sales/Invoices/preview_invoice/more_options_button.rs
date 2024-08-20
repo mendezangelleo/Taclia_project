@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>modal_createSerialNumber</name>
+   <name>more_options_button</name>
    <tag></tag>
-   <elementGuidId>d82f76d7-91c1-4621-978b-c1318d2db609</elementGuidId>
+   <elementGuidId>4cbecd08-7ed2-414f-8ec6-aece2d5f29ea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//roma-show-budget/div[1]/div[2]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//roma-create-budget/div/section[2]/form/div[1]/div[1]/roma-budget-header/fieldset/div[2]/div[1]/rm-select-register/div[2]/div/div[3]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

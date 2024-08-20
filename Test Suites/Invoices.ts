@@ -19,6 +19,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>e803ad10-d1f8-4c0b-95dc-787073f87822</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Invoices/delete_invoice</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>87fe0939-990c-4a4c-8bf2-1fa19abed92f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -26,7 +33,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>37862658-394f-4325-967d-61217b7c4e4d</guid>
+      <guid>0817603b-3643-4524-870e-5292357caca7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Invoices/edit_invoice</testCaseId>

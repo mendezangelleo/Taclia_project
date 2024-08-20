@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>name_modalSerialNumber</name>
+   <name>delete_yes_button</name>
    <tag></tag>
-   <elementGuidId>f2b0a191-5c9b-4ec3-9c83-cbffc6790f40</elementGuidId>
+   <elementGuidId>5507ba49-75ca-46b6-9f25-a0cdd0d797de</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']</value>
+         <value>//roma-delete-by-selection-modal/div[3]/button[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

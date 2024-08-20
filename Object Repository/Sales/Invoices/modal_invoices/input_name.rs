@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Save_modalCustomer</name>
+   <name>input_name</name>
    <tag></tag>
-   <elementGuidId>d65d81ae-a388-4730-82c3-75168aa1d387</elementGuidId>
+   <elementGuidId>6de9884d-e507-47f9-a47d-d36d56814608</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(@class, 'primary') and contains(@class, 'small') and (normalize-space(text())='Guardar' or normalize-space(text())='Save')]</value>
+         <value>//div/section/roma-budget-category/section/fieldset/div[1]/div[1]/div/rm-select-register/div[2]/div/div[1]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

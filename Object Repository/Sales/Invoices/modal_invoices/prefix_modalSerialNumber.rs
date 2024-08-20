@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>name_modalCustomer</name>
+   <name>prefix_modalSerialNumber</name>
    <tag></tag>
-   <elementGuidId>d3dc2332-a4b1-4f82-a92a-2bfd922a83d4</elementGuidId>
+   <elementGuidId>374fc0b5-c24e-4313-8bd0-93714598e6c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name' and @type='text' and @formcontrolname='name' and @placeholder='Ingresar nombre']</value>
+         <value>//input[@id='prefix']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

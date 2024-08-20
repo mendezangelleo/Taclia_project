@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Concepts</name>
+   <name>invoices_sidebar</name>
    <tag></tag>
-   <elementGuidId>7c71b0b9-6817-4ea1-9688-50363965c4c6</elementGuidId>
+   <elementGuidId>970f0a47-8755-481d-b82b-8b774e81ba48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@href='/admin/budgets?type=BILL' and (contains(., 'Invoices') or contains(., 'Facturas'))]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/section/roma-budget-category/section/fieldset/div[1]/div[1]/div/rm-select-register/div[1]/div[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

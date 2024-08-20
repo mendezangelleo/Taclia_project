@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>invoices_sidebar</name>
+   <name>modal_createCustomer</name>
    <tag></tag>
-   <elementGuidId>970f0a47-8755-481d-b82b-8b774e81ba48</elementGuidId>
+   <elementGuidId>d57fee0e-0be0-435d-8e2d-f37d1ad9b3fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[text()[normalize-space()='Crear cliente']]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href='/admin/budgets?type=BILL' and (contains(., 'Invoices') or contains(., 'Facturas'))]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

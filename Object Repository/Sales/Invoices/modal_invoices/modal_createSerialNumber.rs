@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>check_preview</name>
+   <name>modal_createSerialNumber</name>
    <tag></tag>
-   <elementGuidId>34e2ba43-6f61-42bf-a01f-d3d42f25789a</elementGuidId>
+   <elementGuidId>d82f76d7-91c1-4621-978b-c1318d2db609</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/roma-root/roma-admin/div/div[2]/div[2]/div/roma-show-budget/div[2]/div[2]/pdf-viewer/div/div/div/div[2]</value>
+         <value>//roma-create-budget/div/section[2]/form/div[1]/div[1]/roma-budget-header/fieldset/div[2]/div[1]/rm-select-register/div[2]/div/div[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

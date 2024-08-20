@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>prefix_modalSerialNumber</name>
+   <name>delete_button</name>
    <tag></tag>
-   <elementGuidId>374fc0b5-c24e-4313-8bd0-93714598e6c6</elementGuidId>
+   <elementGuidId>6e756280-0c2e-4159-ac19-560d177f823b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='prefix']</value>
+         <value>//button[contains(@class, 'danger') and contains(@class, 'mat-menu-item') and (text()[normalize-space()='Eliminar'] or text()[normalize-space()='Delete'])]</value>
       </entry>
       <entry>
          <key>BASIC</key>

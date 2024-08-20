@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_concept</name>
+   <name>dropdown_Concepts</name>
    <tag></tag>
-   <elementGuidId>3dc48a71-983c-4f85-9301-d4b251586bc9</elementGuidId>
+   <elementGuidId>7c71b0b9-6817-4ea1-9688-50363965c4c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div/section/roma-budget-category/section/fieldset/div[1]/div[1]/div/rm-select-register/div[1]/div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div/section/roma-budget-category/section/fieldset/div[1]/div[1]/div/rm-select-register/div[2]/div/div[3]/div[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
