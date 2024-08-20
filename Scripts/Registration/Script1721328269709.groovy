@@ -64,19 +64,10 @@ try {
 catch (Exception e) {
 	WebUI.comment('Error: ' + e.getMessage())
 
-<<<<<<< HEAD
 	throw e
 }
 finally {
 	// Cerrar la aplicación
 	//GeneralUse.close()
 }
-=======
-    throw e
-} 
-// Lanzar la excepción para que el test falle
-//finally { 
-    // Cerrar la aplicación
-    //GeneralUse.close()
-//}
->>>>>>> 8d6d92c (TC customers create, edit and delete)
+
