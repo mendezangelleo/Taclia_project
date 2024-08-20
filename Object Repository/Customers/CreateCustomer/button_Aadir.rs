@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Aadir</name>
+   <tag></tag>
+   <elementGuidId>d78ed5d0-ee60-4b07-8703-785be41b93eb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.roma-button.add-button-3.mobile-hidden.user-feature.is-user-available.is-checkable</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bodyContainer']/roma-finals/div/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Añadir&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8f40d691-e5e3-48ff-8e9d-a5f83d621308</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>roma-button add-button-3 mobile-hidden user-feature is-user-available is-checkable</value>
+      <webElementGuid>468d1cc7-7122-48f7-8b4e-297f0cbc7eb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Añadir </value>
+      <webElementGuid>d1268bc9-9db8-4db8-8fb5-6e3fd1ee7f3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bodyContainer&quot;)/roma-finals[@class=&quot;roma-page ng-star-inserted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4 col-md-6 video-section&quot;]/button[@class=&quot;roma-button add-button-3 mobile-hidden user-feature is-user-available is-checkable&quot;]</value>
+      <webElementGuid>f77373fb-181d-409e-aa7a-317c60ab8f65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bodyContainer']/roma-finals/div/div[2]/button</value>
+      <webElementGuid>960615fc-d19b-4ced-aebd-0cc70f302de9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutorial'])[1]/following::button[1]</value>
+      <webElementGuid>17c3fcdb-5668-4705-8164-ad7e5386cfa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clientes'])[3]/following::button[1]</value>
+      <webElementGuid>c9193006-c5dc-42bf-8f47-da86da78a7d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filtrar'])[1]/preceding::button[1]</value>
+      <webElementGuid>6a302877-7b69-48df-9137-358d4a000c89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Importar'])[1]/preceding::button[2]</value>
+      <webElementGuid>3b0a8e90-c3b7-4ea2-9e30-a42908c31fef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Añadir']/parent::*</value>
+      <webElementGuid>f98da12e-0c9a-4019-8854-95ca39e82e5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//roma-finals/div/div[2]/button</value>
+      <webElementGuid>1cb09729-d4ac-4c94-8a6d-ca92a86fc862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Añadir ' or . = ' Añadir ')]</value>
+      <webElementGuid>62736737-a6ab-4944-b428-48a1a6dec2ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

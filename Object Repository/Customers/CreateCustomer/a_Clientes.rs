@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Clientes</name>
+   <tag></tag>
+   <elementGuidId>63378b9e-f594-4758-b513-8748c8fb5550</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.mat-focus-indicator.button-sidebar.mat-button.mat-button-base.user-feature-hide.is-user-available.is-checkable.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Productos / Servicios'])[2]/following::a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Clientes Clientes&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ec873542-3182-48c1-970f-31a1b9bca427</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator button-sidebar mat-button mat-button-base user-feature-hide is-user-available is-checkable ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>e7c72f39-c4d8-4650-a191-c7f9d5689c14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>72e07ef1-4212-4b6d-9488-470888fe67ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>856bc9eb-2da9-4b7d-8e1d-650b24992c5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/finals</value>
+      <webElementGuid>7542a1c6-0343-4def-acc6-47e71a505599</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Clientes</value>
+      <webElementGuid>fe65e26e-3c36-4db2-b50a-bbdb733c0d60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/roma-root[1]/roma-admin[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;site&quot;]/div[@class=&quot;sidebar-container ng-star-inserted&quot;]/roma-sidebar[@class=&quot;roma-sidebar&quot;]/div[@class=&quot;desktop-sidebar&quot;]/div[@class=&quot;desktop-sidebar-body no-improve&quot;]/div[@class=&quot;ng-star-inserted&quot;]/a[@class=&quot;mat-focus-indicator button-sidebar mat-button mat-button-base user-feature-hide is-user-available is-checkable ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>bcb3b7f1-aa2d-4c0a-bac2-375ea9c5fe2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Productos / Servicios'])[2]/following::a[1]</value>
+      <webElementGuid>e17f45b3-d5e7-41d7-aece-cfaaab1842bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trabajos'])[2]/following::a[2]</value>
+      <webElementGuid>44afcb16-33d8-4e56-a452-aedea7905618</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ventas'])[3]/preceding::a[1]</value>
+      <webElementGuid>cb5076b0-0ffe-4626-bb5d-8e4d6db5ede9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/finals')]</value>
+      <webElementGuid>3b486925-4766-4960-b541-3040f7c861d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>7ca84bb6-719c-4004-9100-5c559a873e90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/finals' and (text() = 'Clientes' or . = 'Clientes')]</value>
+      <webElementGuid>ada041d0-a491-4979-a9e5-f5d0dc892506</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

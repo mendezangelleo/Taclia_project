@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_control horario_module-icon</name>
+   <tag></tag>
+   <elementGuidId>484b4eae-0f22-434d-a8df-5675dca22b09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/label/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;Hacer facturas, presupuestos y albaranes&quot;i >> internal:role=img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>cd07ee81-fea3-497c-ac39-38337697d3d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>module-icon</value>
+      <webElementGuid>ccc058b2-1048-4e8c-befd-e051c44459cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>assets/icons/register/tool_bill.svg</value>
+      <webElementGuid>18197b21-14eb-4621-9d44-6013fa684896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/roma-root[1]/roma-new-register[1]/div[@class=&quot;new-register&quot;]/div[@class=&quot;modal-register&quot;]/div[@class=&quot;steps&quot;]/div[1]/form[@class=&quot;form-desktop ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-cards columns&quot;]/div[@class=&quot;item-sector&quot;]/label[1]/div[1]/img[@class=&quot;module-icon&quot;]</value>
+      <webElementGuid>6cfb1c27-e44d-4cdd-a63c-aceafaf31caa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label/div/img</value>
+      <webElementGuid>d8ecd136-7803-497e-a502-f60d76a1416b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'assets/icons/register/tool_bill.svg']</value>
+      <webElementGuid>7f3722fc-03ff-4e2c-ba19-6ed9837a5dc1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

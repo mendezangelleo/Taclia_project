@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='Reservas Online']/parent::*</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Necesitas ayuda'])[1]/preceding::span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
