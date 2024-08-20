@@ -25,6 +25,8 @@ class Invoices {
 	static void saveInvoice() {
 		WebUI.click(findTestObject('Object Repository/Sales/Invoices/modal_invoices/Save_invoice'))
 	}
+	
+
 
 	static void editInvoice() {
 		WebUI.click(findTestObject('Object Repository/Sales/Invoices/preview_invoice/edit_button'))
@@ -52,6 +54,7 @@ class Invoices {
 		WebUI.click(findTestObject('Object Repository/Sales/Invoices/modal_invoices/select_SerialNumber'))
 	}
 
+
 	static void createSerialNumber() {
 		WebUI.click(findTestObject('Object Repository/Sales/Invoices/modal_invoices/dropdown_SerialNumber'))
 		WebUI.click(findTestObject('Object Repository/Sales/Invoices/modal_invoices/modal_createSerialNumber'))
@@ -74,4 +77,10 @@ class Invoices {
 		WebUI.click(findTestObject('Object Repository/Sales/Invoices/preview_invoice/delete_button'))
 		WebUI.click(findTestObject('Object Repository/Sales/Invoices/preview_invoice/delete_yes_button'))
 	}
+
 }
+
+
+
+
+

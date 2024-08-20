@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_CORREO ELECTRNICO_form-control md-inp_296ed0</name>
+   <tag></tag>
+   <elementGuidId>9a52daae-98fc-41cf-9067-28f8f9c7e07f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.md-input.ng-untouched.ng-pristine.ng-valid.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='email']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Ingresar correo&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7ecd3593-1890-4067-b338-98b6fb58952e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>3677f51d-9107-4ea5-bbce-d492b2692977</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control md-input ng-untouched ng-pristine ng-valid ng-star-inserted</value>
+      <webElementGuid>56646c2e-b1d7-4dd4-8d88-b18f0092e79b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ingresar correo</value>
+      <webElementGuid>d361b774-84ec-463c-83cf-d70d0dea4880</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-dialog-1&quot;)/roma-create-final-v2[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;modal__body safe-area-padding&quot;]/div[@class=&quot;modal__body__content&quot;]/roma-final-wrapper-detail[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;wrapper__body&quot;]/div[@class=&quot;wrapper__body__content&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;wrapper__body__content__field&quot;]/div[@class=&quot;wrapper__body__content__field__content wrapper-pro-feature-user is-user-available&quot;]/div[@class=&quot;input__wrapper&quot;]/div[@class=&quot;email-input-wrapper ng-star-inserted&quot;]/input[@class=&quot;form-control md-input ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]</value>
+      <webElementGuid>faabba99-f684-49b2-b1de-ef5e11fcf7c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='email']</value>
+      <webElementGuid>602571a0-deef-4d7c-9658-37bd45f7bba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/roma-create-final-v2/div[2]/div[2]/roma-final-wrapper-detail/div/div/form/div[7]/div[2]/div/div/input</value>
+      <webElementGuid>d3500207-9f31-44e4-b4b2-dbec5cd06c12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div[2]/div/div/input</value>
+      <webElementGuid>4cac92da-369f-4601-aee6-05211797744c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'email' and @placeholder = 'Ingresar correo']</value>
+      <webElementGuid>66ba8ae3-3c53-47ed-9ed0-7e9052d4c018</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

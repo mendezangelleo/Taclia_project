@@ -70,3 +70,4 @@ finally {
 	// Cerrar la aplicación
 	//GeneralUse.close()
 }
+
