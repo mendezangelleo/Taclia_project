@@ -20,7 +20,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Registration'), [('variable') : ''], FailureHandling.STOP_ON_FAILURE)
 
 try {
     GeneralUse.openSales()
@@ -30,8 +30,6 @@ try {
     Invoices.openModalCreate()
 
     Invoices.createCustomer()
-	
-    Invoices.selectSerialNumberExisting()
 
     Invoices.saveInvoice()
 
